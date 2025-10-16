@@ -1,0 +1,43 @@
+name: Auto update analytics brief
+on:
+  schedule:
+    - cron: "0 13 * * 1,4"    # Mon & Thu 9 AM ET
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: |
+          mkdir -p scripts
+          echo "$UPDATE_SCRIPT" > scripts/fetch_updates.js
+      - name: Run update script
+        env:
+          UPDATE_SCRIPT: |
+            import Parser from 'rss-parser';import fs from 'fs';
+            const p=new Parser();const feeds=[
+              'https://towardsdatascience.com/feed',
+              'https://aws.amazon.com/blogs/machine-learning/feed/',
+              'https://azurecomcdn.azureedge.net/en-us/blog/topics/ai-machine-learning/feed/',
+              'https://powerbi.microsoft.com/en-us/blog/feed/'
+            ];
+            const out=[];
+            for(const u of feeds){try{const f=await p.parseURL(u);
+              f.items.slice(0,5).forEach(i=>out.push({
+                category:'News',title:i.title,source:(new URL(i.link)).hostname,
+                date:(i.isoDate||new Date()).slice(0,10),
+                summary:(i.contentSnippet||'').slice(0,200)+'…',link:i.link
+              }));}catch(e){console.log('skip',u);}}
+            fs.writeFileSync('updates.json',JSON.stringify(out,null,2));
+            console.log('Wrote',out.length,'items');
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add updates.json
+          git commit -m "Auto update feed" || echo "no changes"
+          git push
