@@ -1,0 +1,185 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marcel Dinga — Data Analytics & Clearance Career Brief</title>
+  <meta name="description" content="Twice‑weekly digest: analytics trends, tools, research, certs, industry news, and clearance‑friendly jobs (DMV + remote)." />
+  <style>
+    :root{
+      --bg: #0b0d10; --panel:#11151a; --muted:#7c8594; --text:#e6ebf2; --accent:#72e6a6; --card:#141a21; --chip:#1b222c; --chipText:#b9c3d1;
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:#f7f9fc; --panel:#ffffff; --muted:#556070; --text:#0b1220; --accent:#0ea5e9; --card:#ffffff; --chip:#eef2f7; --chipText:#334155; --shadow:0 10px 30px rgba(2,6,23,.08); }
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:radial-gradient(1200px 600px at 20% -10%, rgba(14,165,233,.12), transparent 60%), radial-gradient(900px 500px at 120% 10%, rgba(114,230,166,.12), transparent 60%), var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 20px 60px}
+    header{position:sticky;top:0;background:linear-gradient(180deg, var(--bg) 0%, rgba(0,0,0,0) 100%);backdrop-filter:saturate(120%) blur(6px); z-index:5}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{inline-size:36px; block-size:36px; border-radius:12px; background:linear-gradient(135deg,var(--accent),#8b5cf6); box-shadow:var(--shadow)}
+    h1{font-size:clamp(20px,4vw,28px);margin:0}
+    .sub{color:var(--muted);font-size:14px;margin-top:2px}
+    .bar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0 6px}
+    .btn{appearance:none;border:1px solid transparent;background:var(--accent);color:#05120a;padding:10px 14px;border-radius:12px;font-weight:600;cursor:pointer;text-decoration:none;box-shadow:var(--shadow)}
+    .btn.ghost{background:transparent;border-color:rgba(120,144,156,.35);color:var(--text)}
+    .panel{background:var(--panel);border:1px solid rgba(120,144,156,.18);box-shadow:var(--shadow);border-radius:18px;padding:16px}
+    .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+    .search{flex:1;min-width:220px;display:flex;align-items:center;gap:8px;background:var(--card);border-radius:12px;padding:10px 12px;border:1px solid rgba(120,144,156,.18)}
+    .search input{all:unset;flex:1}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:var(--chip);color:var(--chipText);padding:6px 10px;border-radius:999px;cursor:pointer;border:1px solid rgba(120,144,156,.18);user-select:none;font-size:13px}
+    .chip.active{outline:2px solid var(--accent);color:var(--text)}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:16px}
+    .card{grid-column:span 12;background:var(--card);border:1px solid rgba(120,144,156,.18);border-radius:16px; padding:16px; box-shadow:var(--shadow)}
+    @media(min-width:740px){.card{grid-column:span 6}}
+    @media(min-width:1040px){.card{grid-column:span 4}}
+    .kicker{color:var(--chipText);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+    .title{font-weight:700;font-size:18px;margin:6px 0}
+    .meta{color:var(--muted);font-size:13px}
+    .rolebullets{margin:10px 0 0 16px}
+    .footer{margin-top:24px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .badge{display:inline-block;padding:2px 8px;border-radius:999px;background:linear-gradient(90deg, rgba(114,230,166,.18), rgba(14,165,233,.18)); color:var(--text); font-size:12px; border:1px solid rgba(120,144,156,.18)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="bar">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <div>
+            <h1>Data Analytics & Clearance Career Brief</h1>
+            <div class="sub">Twice‑weekly: trends • tools • research • certs • news • **DMV & remote clearance‑friendly jobs**</div>
+          </div>
+        </div>
+        <nav>
+          <a class="btn ghost" href="#" id="exportBtn" title="Export this issue as PDF">Export PDF</a>
+          <a class="btn" href="#subscribe" title="Subscribe">Subscribe</a>
+        </nav>
+      </div>
+    </header><section class="panel" style="margin-top:10px">
+  <div class="controls">
+    <div class="search" role="search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M11 19a8 8 0 1 1 5.293-14.707A8 8 0 0 1 11 19Zm10 2-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="q" placeholder="Search topics, tools, employers…" />
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div style="margin-top:8px" class="meta"><span class="badge" id="issueDate"></span> <span class="meta">Filter by category or use search</span></div>
+</section>
+
+<section class="grid" id="cards"></section>
+
+<div class="footer">
+  <div>Built by Marcel Dinga • Free hosting via GitHub Pages</div>
+  <div><a href="https://github.com/new" target="_blank" rel="noopener">Create repo</a> • <a href="#" id="rssLink">RSS</a></div>
+</div>
+
+  </div>  <script>
+    // ---- Editable data: add items here for each issue ----
+    // category one of: Career, Tools, Research, Certifications, News, Jobs
+    const updates = [
+  // ===== Latest Issue (prefilled for you) =====
+  // ——— Career & Hiring ———
+  {category:'Career',title:'DMV hiring pulse: cleared analytics roles climb', source:'Recruiter round‑up', date:'2025-10-16', summary:'Defense contractors expand analyst headcount ahead of FY26; Secret+ preferred, TS/SCI upgrade paths noted in several programs.', link:'#'},
+  {category:'Career',title:'Top 5 skills posting with Secret/TS reqs', source:'Job boards synthesis', date:'2025-10-16', summary:'SQL, Python (Pandas), Power BI, cloud data (Azure/AWS), and vulnerability/telemetry familiarity remain the most requested combo.', link:'#'},
+
+  // ——— Tools & Technology ———
+  {category:'Tools',title:'Power BI: semantic model measures best practices', source:'Official docs', date:'2025-10-14', summary:'Reusable calculation groups and field parameters improve exec vs SOC views without duplicating reports.', link:'#'},
+  {category:'Tools',title:'Scikit‑learn pipelines for reproducible MLOps', source:'Library notes', date:'2025-10-12', summary:'Wrap preprocessing + model + thresholds into one artifact; log with MLflow or lightweight JSON schema.', link:'#'},
+  {category:'Tools',title:'Streamlit tips for sub‑10s latency dashboards', source:'Engineering note', date:'2025-10-11', summary:'Cache heavy models, pre‑compute SHAP, and use server‑side pagination for large tables.', link:'#'},
+
+  // ——— Research & Courses ———
+  {category:'Research',title:'Hybrid anomaly detection for network telemetry', source:'Survey digest', date:'2025-10-13', summary:'Autoencoder scores fused with boosted trees continue to outperform single‑model baselines on class‑imbalanced traffic.', link:'#'},
+  {category:'Research',title:'LLM summarization of SOC alerts: dos & don’ts', source:'Practice brief', date:'2025-10-10', summary:'Guardrail patterns: schema‑validated outputs, red‑team prompts, and PII scrubbing before summarization.', link:'#'},
+  {category:'Certifications',title:'DP‑100 & Google Advanced DA: suggested study path', source:'Certification planner', date:'2025-10-09', summary:'Sequence labs from cloud basics → ML workflows → model monitoring; align portfolio artifacts with exam objectives.', link:'#'},
+
+  // ——— Industry News ———
+  {category:'News',title:'Generative BI continues to mature', source:'Industry watch', date:'2025-10-16', summary:'Natural‑language queries and AI‑assisted visuals are stabilizing; governance and validation remain must‑haves.', link:'#'},
+  {category:'News',title:'Data governance tightening across sectors', source:'Compliance brief', date:'2025-10-15', summary:'Audit trails, role‑based access, and lineage tracking are increasingly enforced in analytics platforms.', link:'#'},
+
+  // ——— Clearance‑Friendly Jobs ———
+  {category:'Jobs',title:'Data Analyst — DoD Cyber Program (Secret → TS/SCI eligible)', source:'DMV • Federal contractor', date:'2025-10-16', summary:'Support cyber defense analytics; SQL/Python dashboards; anomaly triage; hybrid Arlington, VA.', link:'#', bullets:[
+    'Built Python + SQL pipelines with validation and audit logs for reproducibility',
+    'Delivered Power BI dashboards for Exec & SOC modes with <10s load targets',
+    'Applied XGBoost + Autoencoder anomaly scoring on CICIDS‑style telemetry',
+  ]},
+  {category:'Jobs',title:'Junior Data Scientist — Healthcare Analytics (Secret)', source:'DMV • Federal health contractor', date:'2025-10-16', summary:'Claims + clinical KPI modeling; Pandas/Scikit‑learn; privacy and PHI handling; remote‑first (US).', link:'#', bullets:[
+    'Implemented time‑aware splits and SMOTE for imbalanced healthcare outcomes',
+    'Produced clear, HIPAA‑conscious summaries and model cards for stakeholders',
+  ]},
+  {category:'Jobs',title:'Analytics Engineer — Intelligence Programs (Secret/TS)', source:'DMV • Systems integrator', date:'2025-10-15', summary:'DBT/SQL transformations, data contracts, and lineage; on‑site Springfield, VA.', link:'#', bullets:[
+    'Designed Kimball‑style marts and DBT models with tests and documentation',
+    'Optimized SQL Server performance and implemented backup/HA strategies',
+  ]},
+  {category:'Jobs',title:'Data Analyst — Financial Crimes (Remote, US)', source:'Fintech', date:'2025-10-14', summary:'Transaction anomaly analytics; Python, SQL, dashboards; law‑enforcement collaboration.', link:'#', bullets:[
+    'Developed fraud features and explainable alerts with SHAP for investigator triage',
+    'Maintained JSON‑schema outputs for consistent downstream consumption',
+  ]},
+
+  // ——— Bonus: Internship ———
+  {category:'Jobs',title:'Data Analytics Intern — Federal Projects (Secret preferred)', source:'DMV • Consulting', date:'2025-10-13', summary:'Assist with ETL, dashboards, and model evaluation on public‑sector data; pays + TS/SCI sponsorship potential.', link:'#', bullets:[
+    'Automated report generation with Pandas and Power BI',
+    'Documented acceptance criteria and unit tests against real‑world scenarios',
+  ]},
+];
+
+    // ---- UI logic ----
+    const cats = ['Career','Tools','Research','Certifications','News','Jobs'];
+    const chips = document.getElementById('chips');
+    const cards = document.getElementById('cards');
+    const q = document.getElementById('q');
+    const issueDate = document.getElementById('issueDate');
+
+    issueDate.textContent = `Issue: ${new Date().toLocaleDateString()}`;
+
+    const state = {active:new Set(cats)};
+
+    cats.forEach(c=>{
+      const el=document.createElement('button');
+      el.className='chip active';
+      el.textContent=c;
+      el.onclick=()=>{ if(state.active.has(c)){state.active.delete(c); el.classList.remove('active');} else {state.active.add(c); el.classList.add('active');} render(); };
+      chips.appendChild(el);
+    });
+
+    q.addEventListener('input', render);
+
+    function render(){
+      const term=(q.value||'').toLowerCase();
+      cards.innerHTML='';
+      updates
+        .filter(u=>state.active.has(u.category))
+        .filter(u=>!term || (u.title+u.summary+u.source+u.category).toLowerCase().includes(term))
+        .sort((a,b)=> (b.date||'').localeCompare(a.date||''))
+        .forEach(u=>{
+          const art=document.createElement('article');
+          art.className='card';
+          const b = (u.bullets||[]).map(x=>`<li>${x}</li>`).join('');
+          art.innerHTML=`
+            <div class="kicker">${u.category}</div>
+            <div class="title">${u.title}</div>
+            <div class="meta">${u.source} • ${new Date(u.date).toLocaleDateString()}</div>
+            <p>${u.summary}</p>
+            ${b?`<ul class="rolebullets">${b}</ul>`:''}
+            <p><a class="btn ghost" href="${u.link}" target="_blank" rel="noopener">Source</a></p>
+          `;
+          cards.appendChild(art);
+        });
+    }
+
+    render();
+
+    // quick-export (prints the page; use browser "Save as PDF")
+    document.getElementById('exportBtn').addEventListener('click', (e)=>{ e.preventDefault(); window.print(); });
+
+    // placeholder RSS link (replace with real feed later if desired)
+    document.getElementById('rssLink').addEventListener('click', (e)=>{
+      e.preventDefault();
+      alert('To add RSS later: generate feed.xml in your repo and link it here.');
+    })
+  </script></body>
+</html>
