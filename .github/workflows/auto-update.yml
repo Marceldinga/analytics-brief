@@ -1,14 +1,15 @@
 name: Auto update analytics brief
+
 on:
   schedule:
-    - cron: "0 13 * * 1,4"   # Mon & Thu 09:00 ET ≈ 13:00 UTC (adjust if needed)
-  workflow_dispatch: {}       # allow manual run from Actions tab
+    - cron: "0 13 * * 1,4"      # Mon & Thu 09:00 ET (13:00 UTC)
+  workflow_dispatch: {}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write         # allow committing updates.json with GITHUB_TOKEN
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,14 +22,52 @@ jobs:
       - name: Install deps
         run: |
           npm init -y >/dev/null 2>&1 || true
-          npm install rss-parser node-fetch@3 date-fns --save
+          npm install rss-parser --silent
 
-      - name: Fetch updates & build JSON
-        run: node scripts/fetch_updates.js
+      - name: Write fetch script
+        run: |
+          mkdir -p scripts
+          cat > scripts/fetch_updates.mjs <<'EOF'
+          import Parser from 'rss-parser';
+          import fs from 'fs';
+
+          const parser = new Parser();
+          const feeds = [
+            'https://towardsdatascience.com/feed',
+            'https://aws.amazon.com/blogs/machine-learning/feed/',
+            'https://azurecomcdn.azureedge.net/en-us/blog/topics/ai-machine-learning/feed/',
+            'https://powerbi.microsoft.com/en-us/blog/feed/'
+          ];
+
+          const out = [];
+          for (const url of feeds) {
+            try {
+              const feed = await parser.parseURL(url);
+              (feed.items || []).slice(0, 5).forEach(i => {
+                out.push({
+                  category: 'News',
+                  title: i.title || 'Update',
+                  source: new URL(i.link || 'https://example.com').hostname.replace('www.',''),
+                  date: (i.isoDate || new Date().toISOString()).slice(0,10),
+                  summary: ((i.contentSnippet || '').replace(/\s+/g,' ').slice(0,200)) + '…',
+                  link: i.link || '#'
+                });
+              });
+            } catch (e) {
+              console.log('Feed error:', url, e.message);
+            }
+          }
+
+          fs.writeFileSync('updates.json', JSON.stringify(out, null, 2));
+          console.log(`Wrote ${out.length} items to updates.json`);
+          EOF
+
+      - name: Run fetch script
+        run: node scripts/fetch_updates.mjs
 
       - name: Commit updates.json
         run: |
-          if [[ -n "$(git status --porcelain updates.json)" ]]; then
+          if [ -n "$(git status --porcelain updates.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add updates.json
