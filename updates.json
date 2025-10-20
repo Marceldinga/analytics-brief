@@ -1,0 +1,122 @@
+[
+  {
+    "category": "News",
+    "title": "Conceptual Frameworks for Data Science Projects",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-19",
+    "summary": "An overview of common framework types and a simple process for building custom frameworks The post Conceptual Frameworks for Data Science Projects appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/conceptual-frameworks-for-data-science-projects/"
+  },
+  {
+    "category": "News",
+    "title": "How to Build Guardrails for Effective Agents",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-19",
+    "summary": "Learn how to set up effective guardrails to enforce desired behaviour from your agents The post How to Build Guardrails for Effective Agents appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/how-to-build-guardrails-for-effective-agents/"
+  },
+  {
+    "category": "News",
+    "title": "Can We Save the AI Economy?",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-18",
+    "summary": "And do we want to? The post Can We Save the AI Economy? appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/can-we-save-the-ai-economy/"
+  },
+  {
+    "category": "News",
+    "title": "Python 3.14 and the End of the GIL",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-18",
+    "summary": "Exploring the opportunities and challenges of a GIL-free Python The post Python 3.14 and the End of the GIL appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/"
+  },
+  {
+    "category": "News",
+    "title": "Machine Learning Meets Panel Data: What Practitioners Need to Know",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-17",
+    "summary": "How to avoid overestimating machine learning models’ performance, usefulness, and real-world applicability due to hidden data leakage The post Machine Learning Meets Panel Data: What Practitioners Nee…",
+    "link": "https://towardsdatascience.com/machine-learning-meets-panel-data-what-practitioners-need-to-know/"
+  },
+  {
+    "category": "News",
+    "title": "How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock",
+    "source": "aws.amazon.com",
+    "date": "2025-10-17",
+    "summary": "This post shows how TP ICAP used Amazon Bedrock Knowledge Bases and Amazon Bedrock Evaluations to build ClientIQ, an enterprise-grade solution with enhanced security features for extracting CRM insigh…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/"
+  },
+  {
+    "category": "News",
+    "title": "Principal Financial Group accelerates build, test, and deployment of Amazon Lex V2 bots through automation",
+    "source": "aws.amazon.com",
+    "date": "2025-10-17",
+    "summary": "In the post Principal Financial Group increases Voice Virtual Assistant performance using Genesys, Amazon Lex, and Amazon QuickSight, we discussed the overall Principal Virtual Assistant solution usin…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/principal-financial-group-accelerates-build-test-and-deployment-of-amazon-lex-v2-bots-through-automation/"
+  },
+  {
+    "category": "News",
+    "title": "Beyond vibes: How to properly select the right LLM for the right task",
+    "source": "aws.amazon.com",
+    "date": "2025-10-17",
+    "summary": "In this post, we discuss an approach that can guide you to build comprehensive and empirically driven evaluations that can help you make better decisions when selecting the right model for your task.…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/beyond-vibes-how-to-properly-select-the-right-llm-for-the-right-task/"
+  },
+  {
+    "category": "News",
+    "title": "Splash Music transforms music generation using AWS Trainium and Amazon SageMaker HyperPod",
+    "source": "aws.amazon.com",
+    "date": "2025-10-17",
+    "summary": "In this post, we show how Splash Music is setting a new standard for AI-powered music creation by using its advanced HummingLM model with AWS Trainium on Amazon SageMaker HyperPod. As a selected start…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/splash-music-transforms-music-generation-using-aws-trainium-and-amazon-sagemaker-hyperpod/"
+  },
+  {
+    "category": "News",
+    "title": "Iterative fine-tuning on Amazon Bedrock for strategic model improvement",
+    "source": "aws.amazon.com",
+    "date": "2025-10-16",
+    "summary": "Organizations often face challenges when implementing single-shot fine-tuning approaches for their generative AI models. The single-shot fine-tuning method involves selecting training data, configurin…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/iterative-fine-tuning-on-amazon-bedrock-for-strategic-model-improvement/"
+  },
+  {
+    "category": "News",
+    "title": "Announcing a new Fabric REST API for connection binding of semantic models",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-16",
+    "summary": "We are thrilled to announce the release of a new Fabric REST API for configuring connection bindings for semantic models. A connection binding defines what data connection a semantic model will use to…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/announcing-a-new-fabric-rest-api-for-connection-binding-of-semantic-models/"
+  },
+  {
+    "category": "News",
+    "title": "Power BI October 2025 Feature Summary",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-16",
+    "summary": "This month’s update brings exciting opportunities for learning and community engagement, including the upcoming Fabric Data Days and the return of FabCon in Atlanta next spring. Notably, Power BI is m…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-october-2025-feature-summary/"
+  },
+  {
+    "category": "News",
+    "title": "Power BI Report Server September 2025 Feature Summary",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-15",
+    "summary": "PBIRS September 2025 Feature Summary…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-september-2025-feature-summary/"
+  },
+  {
+    "category": "News",
+    "title": "Empowering our customers to shape the future of data connectivity in Power BI and Microsoft Fabric",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-10",
+    "summary": "Discover how Microsoft is transforming data connectivity in Power BI and Microsoft Fabric with a community-driven approach. Learn how you can influence the connector roadmap, submit ideas, vote on pri…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/empowering-our-customers-to-shape-the-future-of-data-connectivity-in-power-bi-and-microsoft-fabric/"
+  },
+  {
+    "category": "News",
+    "title": "Prep Your Data for AI — Now in the Power BI Service ",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-07",
+    "summary": "Until now, preparing your data for AI was only possible in Power BI Desktop. That changes today! As of today, we are rolling out the ability for you to prepare your data for AI directly in the Power B…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/prep-your-data-for-ai-now-in-the-power-bi-service/"
+  }
+]
