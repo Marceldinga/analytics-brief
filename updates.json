@@ -1,83 +1,91 @@
 [
   {
     "category": "News",
-    "title": "Conceptual Frameworks for Data Science Projects",
+    "title": "Multiple Linear Regression Explained Simply (Part 1)",
     "source": "towardsdatascience.com",
-    "date": "2025-10-19",
-    "summary": "An overview of common framework types and a simple process for building custom frameworks The post Conceptual Frameworks for Data Science Projects appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/conceptual-frameworks-for-data-science-projects/"
+    "date": "2025-10-23",
+    "summary": "The math behind fitting a plane instead of a line. The post Multiple Linear Regression Explained Simply (Part 1) appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/multiple-linear-regression-math-explained-simply-part-1/"
   },
   {
     "category": "News",
-    "title": "How to Build Guardrails for Effective Agents",
+    "title": "Why Should We Bother with Quantum Computing in ML?",
     "source": "towardsdatascience.com",
-    "date": "2025-10-19",
-    "summary": "Learn how to set up effective guardrails to enforce desired behaviour from your agents The post How to Build Guardrails for Effective Agents appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/how-to-build-guardrails-for-effective-agents/"
+    "date": "2025-10-22",
+    "summary": "Quantum Machine Learning principles The post Why Should We Bother with Quantum Computing in ML? appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/why-should-we-bother-with-quantum-computing-in-ml/"
   },
   {
     "category": "News",
-    "title": "Can We Save the AI Economy?",
+    "title": "Federated Learning and Custom Aggregation Schemes",
     "source": "towardsdatascience.com",
-    "date": "2025-10-18",
-    "summary": "And do we want to? The post Can We Save the AI Economy? appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/can-we-save-the-ai-economy/"
+    "date": "2025-10-22",
+    "summary": "A practical guide to designing and analyzing robust aggregation strategies The post Federated Learning and Custom Aggregation Schemes appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/federated-learning-and-custom-aggregation-schemes/"
   },
   {
     "category": "News",
-    "title": "Python 3.14 and the End of the GIL",
+    "title": "Implementing DRIFT Search with Neo4j and LlamaIndex",
     "source": "towardsdatascience.com",
-    "date": "2025-10-18",
-    "summary": "Exploring the opportunities and challenges of a GIL-free Python The post Python 3.14 and the End of the GIL appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/"
+    "date": "2025-10-22",
+    "summary": "Combining global and local search to get the most accurate response The post Implementing DRIFT Search with Neo4j and LlamaIndex appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/implementing-drift-search-with-neo4j-and-llamaindex/"
   },
   {
     "category": "News",
-    "title": "Machine Learning Meets Panel Data: What Practitioners Need to Know",
+    "title": "Agentic AI in Finance: Opportunities and Challenges for Indonesia",
     "source": "towardsdatascience.com",
-    "date": "2025-10-17",
-    "summary": "How to avoid overestimating machine learning models’ performance, usefulness, and real-world applicability due to hidden data leakage The post Machine Learning Meets Panel Data: What Practitioners Nee…",
-    "link": "https://towardsdatascience.com/machine-learning-meets-panel-data-what-practitioners-need-to-know/"
+    "date": "2025-10-22",
+    "summary": "The rise of AI has touched nearly every industry — including finance. In fact, the financial sector has long been an adopter of what we now call “traditional machine learning,” using it for predictive…",
+    "link": "https://towardsdatascience.com/agentic-ai-in-finance-opportunities-and-challenges-for-indonesia/"
   },
   {
     "category": "News",
-    "title": "How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock",
+    "title": "Build scalable creative solutions for product teams with Amazon Bedrock",
     "source": "aws.amazon.com",
-    "date": "2025-10-17",
-    "summary": "This post shows how TP ICAP used Amazon Bedrock Knowledge Bases and Amazon Bedrock Evaluations to build ClientIQ, an enterprise-grade solution with enhanced security features for extracting CRM insigh…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/"
+    "date": "2025-10-22",
+    "summary": "In this post, we explore how product teams can leverage Amazon Bedrock and AWS services to transform their creative workflows through generative AI, enabling rapid content iteration across multiple fo…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-scalable-creative-solutions-for-product-teams-with-amazon-bedrock/"
   },
   {
     "category": "News",
-    "title": "Principal Financial Group accelerates build, test, and deployment of Amazon Lex V2 bots through automation",
+    "title": "Build a proactive AI cost management system for Amazon Bedrock – Part 2",
     "source": "aws.amazon.com",
-    "date": "2025-10-17",
-    "summary": "In the post Principal Financial Group increases Voice Virtual Assistant performance using Genesys, Amazon Lex, and Amazon QuickSight, we discussed the overall Principal Virtual Assistant solution usin…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/principal-financial-group-accelerates-build-test-and-deployment-of-amazon-lex-v2-bots-through-automation/"
+    "date": "2025-10-22",
+    "summary": "In this post, we explore advanced cost monitoring strategies for Amazon Bedrock deployments, introducing granular custom tagging approaches for precise cost allocation and comprehensive reporting mech…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-proactive-ai-cost-management-system-for-amazon-bedrock-part-2/"
   },
   {
     "category": "News",
-    "title": "Beyond vibes: How to properly select the right LLM for the right task",
+    "title": "Build a proactive AI cost management system for Amazon Bedrock – Part 1",
     "source": "aws.amazon.com",
-    "date": "2025-10-17",
-    "summary": "In this post, we discuss an approach that can guide you to build comprehensive and empirically driven evaluations that can help you make better decisions when selecting the right model for your task.…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/beyond-vibes-how-to-properly-select-the-right-llm-for-the-right-task/"
+    "date": "2025-10-22",
+    "summary": "In this post, we introduce a comprehensive solution for proactively managing Amazon Bedrock inference costs through a cost sentry mechanism designed to establish and enforce token usage limits, provid…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-proactive-ai-cost-management-system-for-amazon-bedrock-part-1/"
   },
   {
     "category": "News",
-    "title": "Splash Music transforms music generation using AWS Trainium and Amazon SageMaker HyperPod",
+    "title": "Streamline code migration using Amazon Nova Premier with an agentic workflow",
     "source": "aws.amazon.com",
-    "date": "2025-10-17",
-    "summary": "In this post, we show how Splash Music is setting a new standard for AI-powered music creation by using its advanced HummingLM model with AWS Trainium on Amazon SageMaker HyperPod. As a selected start…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/splash-music-transforms-music-generation-using-aws-trainium-and-amazon-sagemaker-hyperpod/"
+    "date": "2025-10-22",
+    "summary": "In this post, we demonstrate how Amazon Nova Premier with Amazon Bedrock can systematically migrate legacy C code to modern Java/Spring applications using an intelligent agentic workflow that breaks d…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/streamline-code-migration-using-amazon-nova-premier-with-an-agentic-workflow/"
   },
   {
     "category": "News",
-    "title": "Iterative fine-tuning on Amazon Bedrock for strategic model improvement",
+    "title": "Metagenomi generates millions of novel enzymes cost-effectively using AWS Inferentia",
     "source": "aws.amazon.com",
-    "date": "2025-10-16",
-    "summary": "Organizations often face challenges when implementing single-shot fine-tuning approaches for their generative AI models. The single-shot fine-tuning method involves selecting training data, configurin…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/iterative-fine-tuning-on-amazon-bedrock-for-strategic-model-improvement/"
+    "date": "2025-10-22",
+    "summary": "In this post, we detail how Metagenomi partnered with AWS to implement the Progen2 protein language model on AWS Inferentia, achieving up to 56% cost reduction for high-throughput enzyme generation wo…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/metagenomi-generates-millions-of-novel-enzymes-cost-effectively-using-aws-inferentia/"
+  },
+  {
+    "category": "News",
+    "title": "Introducing Improvements to the Report Copilot in Power BI",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-20",
+    "summary": "We’ve upgraded the Report Copilot experience in Power BI, making it easier than ever to create, edit, and refine beautiful, data-rich reports with the help of AI. With this update, Copilot in Power BI…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/introducing-improvements-to-the-report-copilot-in-power-bi/"
   },
   {
     "category": "News",
@@ -110,13 +118,5 @@
     "date": "2025-10-10",
     "summary": "Discover how Microsoft is transforming data connectivity in Power BI and Microsoft Fabric with a community-driven approach. Learn how you can influence the connector roadmap, submit ideas, vote on pri…",
     "link": "https://powerbi.microsoft.com/en-us/blog/empowering-our-customers-to-shape-the-future-of-data-connectivity-in-power-bi-and-microsoft-fabric/"
-  },
-  {
-    "category": "News",
-    "title": "Prep Your Data for AI — Now in the Power BI Service ",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-07",
-    "summary": "Until now, preparing your data for AI was only possible in Power BI Desktop. That changes today! As of today, we are rolling out the ability for you to prepare your data for AI directly in the Power B…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/prep-your-data-for-ai-now-in-the-power-bi-service/"
   }
 ]
