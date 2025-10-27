@@ -1,43 +1,75 @@
 [
   {
     "category": "News",
-    "title": "Multiple Linear Regression Explained Simply (Part 1)",
+    "title": "The Power of Framework Dimensions: What Data Scientists Should Know",
     "source": "towardsdatascience.com",
+    "date": "2025-10-26",
+    "summary": "Practical guidance and a case study The post The Power of Framework Dimensions: What Data Scientists Should Know appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/the-power-of-framework-dimensions-what-data-scientists-should-know/"
+  },
+  {
+    "category": "News",
+    "title": "AI Agents: From Assistants for Efficiency to Leaders of Tomorrow?",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-26",
+    "summary": "How artificial intelligence is evolving from \"simple\" assistants to potential architect of our future-even CEOs and governors The post AI Agents: From Assistants for Efficiency to Leaders of Tomorrow?…",
+    "link": "https://towardsdatascience.com/ai-agents-from-assistants-for-efficiency-to-leaders-of-tomorrow/"
+  },
+  {
+    "category": "News",
+    "title": "Data Visualization Explained (Part 4): A Review of Python Essentials",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-25",
+    "summary": "Learn the foundations of Python to take your data visualization game to the next level. The post Data Visualization Explained (Part 4): A Review of Python Essentials appeared first on Towards Data Sci…",
+    "link": "https://towardsdatascience.com/data-visualization-explained-part-4-a-review-of-python-essentials/"
+  },
+  {
+    "category": "News",
+    "title": "Building a Geospatial Lakehouse with Open Source and Databricks",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-25",
+    "summary": "An example workflow for vector geospatial data science The post Building a Geospatial Lakehouse with Open Source and Databricks appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/building-a-geospatial-lakehouse-with-open-source-and-databricks-2/"
+  },
+  {
+    "category": "News",
+    "title": "Agentic AI from First Principles: Reflection",
+    "source": "towardsdatascience.com",
+    "date": "2025-10-24",
+    "summary": "From theory to code: building feedback loops that improve LLM accuracy The post Agentic AI from First Principles: Reflection appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/agentic-ai-from-first-principles-reflection/"
+  },
+  {
+    "category": "News",
+    "title": "Responsible AI design in healthcare and life sciences",
+    "source": "aws.amazon.com",
+    "date": "2025-10-24",
+    "summary": "In this post, we explore the critical design considerations for building responsible AI systems in healthcare and life sciences, focusing on establishing governance mechanisms, transparency artifacts,…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-design-in-healthcare-and-life-sciences/"
+  },
+  {
+    "category": "News",
+    "title": "Beyond pilots: A proven framework for scaling AI to production",
+    "source": "aws.amazon.com",
+    "date": "2025-10-24",
+    "summary": "In this post, we explore the Five V's Framework—a field-tested methodology that has helped 65% of AWS Generative AI Innovation Center customer projects successfully transition from concept to producti…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/beyond-pilots-a-proven-framework-for-scaling-ai-to-production/"
+  },
+  {
+    "category": "News",
+    "title": "Generate Gremlin queries using Amazon Bedrock models",
+    "source": "aws.amazon.com",
     "date": "2025-10-23",
-    "summary": "The math behind fitting a plane instead of a line. The post Multiple Linear Regression Explained Simply (Part 1) appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/multiple-linear-regression-math-explained-simply-part-1/"
+    "summary": "In this post, we explore an innovative approach that converts natural language to Gremlin queries using Amazon Bedrock models such as Amazon Nova Pro, helping business analysts and data scientists acc…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/generate-gremlin-queries-using-amazon-bedrock-models/"
   },
   {
     "category": "News",
-    "title": "Why Should We Bother with Quantum Computing in ML?",
-    "source": "towardsdatascience.com",
-    "date": "2025-10-22",
-    "summary": "Quantum Machine Learning principles The post Why Should We Bother with Quantum Computing in ML? appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/why-should-we-bother-with-quantum-computing-in-ml/"
-  },
-  {
-    "category": "News",
-    "title": "Federated Learning and Custom Aggregation Schemes",
-    "source": "towardsdatascience.com",
-    "date": "2025-10-22",
-    "summary": "A practical guide to designing and analyzing robust aggregation strategies The post Federated Learning and Custom Aggregation Schemes appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/federated-learning-and-custom-aggregation-schemes/"
-  },
-  {
-    "category": "News",
-    "title": "Implementing DRIFT Search with Neo4j and LlamaIndex",
-    "source": "towardsdatascience.com",
-    "date": "2025-10-22",
-    "summary": "Combining global and local search to get the most accurate response The post Implementing DRIFT Search with Neo4j and LlamaIndex appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/implementing-drift-search-with-neo4j-and-llamaindex/"
-  },
-  {
-    "category": "News",
-    "title": "Agentic AI in Finance: Opportunities and Challenges for Indonesia",
-    "source": "towardsdatascience.com",
-    "date": "2025-10-22",
-    "summary": "The rise of AI has touched nearly every industry — including finance. In fact, the financial sector has long been an adopter of what we now call “traditional machine learning,” using it for predictive…",
-    "link": "https://towardsdatascience.com/agentic-ai-in-finance-opportunities-and-challenges-for-indonesia/"
+    "title": "Incorporating responsible AI into generative AI project prioritization",
+    "source": "aws.amazon.com",
+    "date": "2025-10-23",
+    "summary": "In this post, we explore how companies can systematically incorporate responsible AI practices into their generative AI project prioritization methodology to better evaluate business value against cos…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/incorporating-responsible-ai-into-generative-ai-project-prioritization/"
   },
   {
     "category": "News",
@@ -46,38 +78,6 @@
     "date": "2025-10-22",
     "summary": "In this post, we explore how product teams can leverage Amazon Bedrock and AWS services to transform their creative workflows through generative AI, enabling rapid content iteration across multiple fo…",
     "link": "https://aws.amazon.com/blogs/machine-learning/build-scalable-creative-solutions-for-product-teams-with-amazon-bedrock/"
-  },
-  {
-    "category": "News",
-    "title": "Build a proactive AI cost management system for Amazon Bedrock – Part 2",
-    "source": "aws.amazon.com",
-    "date": "2025-10-22",
-    "summary": "In this post, we explore advanced cost monitoring strategies for Amazon Bedrock deployments, introducing granular custom tagging approaches for precise cost allocation and comprehensive reporting mech…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-proactive-ai-cost-management-system-for-amazon-bedrock-part-2/"
-  },
-  {
-    "category": "News",
-    "title": "Build a proactive AI cost management system for Amazon Bedrock – Part 1",
-    "source": "aws.amazon.com",
-    "date": "2025-10-22",
-    "summary": "In this post, we introduce a comprehensive solution for proactively managing Amazon Bedrock inference costs through a cost sentry mechanism designed to establish and enforce token usage limits, provid…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-proactive-ai-cost-management-system-for-amazon-bedrock-part-1/"
-  },
-  {
-    "category": "News",
-    "title": "Streamline code migration using Amazon Nova Premier with an agentic workflow",
-    "source": "aws.amazon.com",
-    "date": "2025-10-22",
-    "summary": "In this post, we demonstrate how Amazon Nova Premier with Amazon Bedrock can systematically migrate legacy C code to modern Java/Spring applications using an intelligent agentic workflow that breaks d…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/streamline-code-migration-using-amazon-nova-premier-with-an-agentic-workflow/"
-  },
-  {
-    "category": "News",
-    "title": "Metagenomi generates millions of novel enzymes cost-effectively using AWS Inferentia",
-    "source": "aws.amazon.com",
-    "date": "2025-10-22",
-    "summary": "In this post, we detail how Metagenomi partnered with AWS to implement the Progen2 protein language model on AWS Inferentia, achieving up to 56% cost reduction for high-throughput enzyme generation wo…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/metagenomi-generates-millions-of-novel-enzymes-cost-effectively-using-aws-inferentia/"
   },
   {
     "category": "News",
