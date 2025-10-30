@@ -1,43 +1,51 @@
 [
   {
     "category": "News",
-    "title": "The Power of Framework Dimensions: What Data Scientists Should Know",
+    "title": "4 Techniques to Optimize Your LLM Prompts for Cost, Latency and Performance",
     "source": "towardsdatascience.com",
-    "date": "2025-10-26",
-    "summary": "Practical guidance and a case study The post The Power of Framework Dimensions: What Data Scientists Should Know appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/the-power-of-framework-dimensions-what-data-scientists-should-know/"
+    "date": "2025-10-29",
+    "summary": "Learn how to greatly improve the performance of your LLM application The post 4 Techniques to Optimize Your LLM Prompts for Cost, Latency and Performance appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/4-techniques-to-optimize-your-llm-prompts-for-cost-latency-and-performance/"
   },
   {
     "category": "News",
-    "title": "AI Agents: From Assistants for Efficiency to Leaders of Tomorrow?",
+    "title": "Bringing Vision-Language Intelligence to RAG with ColPali",
     "source": "towardsdatascience.com",
-    "date": "2025-10-26",
-    "summary": "How artificial intelligence is evolving from \"simple\" assistants to potential architect of our future-even CEOs and governors The post AI Agents: From Assistants for Efficiency to Leaders of Tomorrow?…",
-    "link": "https://towardsdatascience.com/ai-agents-from-assistants-for-efficiency-to-leaders-of-tomorrow/"
+    "date": "2025-10-29",
+    "summary": "Unlocking the value of non-textual contents in your knowledge base The post Bringing Vision-Language Intelligence to RAG with ColPali appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/bringing-vision-language-intelligence-to-rag-with-colpali/"
   },
   {
     "category": "News",
-    "title": "Data Visualization Explained (Part 4): A Review of Python Essentials",
+    "title": "Using NumPy to Analyze My Daily Habits (Sleep, Screen Time & Mood)",
     "source": "towardsdatascience.com",
-    "date": "2025-10-25",
-    "summary": "Learn the foundations of Python to take your data visualization game to the next level. The post Data Visualization Explained (Part 4): A Review of Python Essentials appeared first on Towards Data Sci…",
-    "link": "https://towardsdatascience.com/data-visualization-explained-part-4-a-review-of-python-essentials/"
+    "date": "2025-10-28",
+    "summary": "Can I use NumPy to figure out how my habits affect my mood and productivity? The post Using NumPy to Analyze My Daily Habits (Sleep, Screen Time & Mood) appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/using-numpy-to-analyze-my-daily-habits-sleep-screen-time-mood/"
   },
   {
     "category": "News",
-    "title": "Building a Geospatial Lakehouse with Open Source and Databricks",
+    "title": "Deep Reinforcement Learning: 0 to 100",
     "source": "towardsdatascience.com",
-    "date": "2025-10-25",
-    "summary": "An example workflow for vector geospatial data science The post Building a Geospatial Lakehouse with Open Source and Databricks appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/building-a-geospatial-lakehouse-with-open-source-and-databricks-2/"
+    "date": "2025-10-28",
+    "summary": "Using RL to teach robots to fly a drone The post Deep Reinforcement Learning: 0 to 100 appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/deep-reinforcement-learning-for-dummies/"
   },
   {
     "category": "News",
-    "title": "Agentic AI from First Principles: Reflection",
+    "title": "Using Claude Skills with Neo4j",
     "source": "towardsdatascience.com",
-    "date": "2025-10-24",
-    "summary": "From theory to code: building feedback loops that improve LLM accuracy The post Agentic AI from First Principles: Reflection appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/agentic-ai-from-first-principles-reflection/"
+    "date": "2025-10-28",
+    "summary": "A hands-on exploration of Claude Skills and their potential applications in Neo4j The post Using Claude Skills with Neo4j appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/using-claude-skills-with-neo4j/"
+  },
+  {
+    "category": "News",
+    "title": "Hosting NVIDIA speech NIM models on Amazon SageMaker AI: Parakeet ASR",
+    "source": "aws.amazon.com",
+    "date": "2025-10-28",
+    "summary": "In this post, we explore how to deploy NVIDIA's Parakeet ASR model on Amazon SageMaker AI using asynchronous inference endpoints to create a scalable, cost-effective pipeline for processing large volu…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/hosting-nvidia-speech-nim-models-on-amazon-sagemaker-ai-parakeet-asr/"
   },
   {
     "category": "News",
@@ -73,11 +81,27 @@
   },
   {
     "category": "News",
-    "title": "Build scalable creative solutions for product teams with Amazon Bedrock",
-    "source": "aws.amazon.com",
-    "date": "2025-10-22",
-    "summary": "In this post, we explore how product teams can leverage Amazon Bedrock and AWS services to transform their creative workflows through generative AI, enabling rapid content iteration across multiple fo…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/build-scalable-creative-solutions-for-product-teams-with-amazon-bedrock/"
+    "title": "Power BI app Copilot: AI scoped to the curated content in an app (Preview)",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-28",
+    "summary": "Announcing Power BI app Copilot, now in preview. With app-scoped Copilot, users can search for reports in an app plus ask questions and get connected with answers based on a report in an app. App Copi…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-app-copilot-ai-scoped-to-the-curated-content-in-an-app-preview/"
+  },
+  {
+    "category": "News",
+    "title": "Deprecation Announcement: Office Online Server Retirement and What It Means for Power BI Report Server Users",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-28",
+    "summary": "What’s Changing? Microsoft has announced that Office Online Server (OOS) will be retired effective December 31, 2026. As a result, PBIRS users will no longer be able to host Excel workbooks in PBIRS u…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/deprecation-announcement-office-online-server-retirement-and-what-it-means-for-power-bi-report-server-users/"
+  },
+  {
+    "category": "News",
+    "title": "Introducing Power BI Controller: Streamlining Storytelling with Bulk Operations (Preview)",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-10-27",
+    "summary": "This feature was developed in direct response to feedback from our user community and is designed to provide an efficient tool for managing multiple Power BI add-ins within PowerPoint presentations. B…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-controller-streamlining-storytelling-with-bulk-operations-preview/"
   },
   {
     "category": "News",
@@ -94,29 +118,5 @@
     "date": "2025-10-16",
     "summary": "We are thrilled to announce the release of a new Fabric REST API for configuring connection bindings for semantic models. A connection binding defines what data connection a semantic model will use to…",
     "link": "https://powerbi.microsoft.com/en-us/blog/announcing-a-new-fabric-rest-api-for-connection-binding-of-semantic-models/"
-  },
-  {
-    "category": "News",
-    "title": "Power BI October 2025 Feature Summary",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-16",
-    "summary": "This month’s update brings exciting opportunities for learning and community engagement, including the upcoming Fabric Data Days and the return of FabCon in Atlanta next spring. Notably, Power BI is m…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-october-2025-feature-summary/"
-  },
-  {
-    "category": "News",
-    "title": "Power BI Report Server September 2025 Feature Summary",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-15",
-    "summary": "PBIRS September 2025 Feature Summary…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-september-2025-feature-summary/"
-  },
-  {
-    "category": "News",
-    "title": "Empowering our customers to shape the future of data connectivity in Power BI and Microsoft Fabric",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-10",
-    "summary": "Discover how Microsoft is transforming data connectivity in Power BI and Microsoft Fabric with a community-driven approach. Learn how you can influence the connector roadmap, submit ideas, vote on pri…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/empowering-our-customers-to-shape-the-future-of-data-connectivity-in-power-bi-and-microsoft-fabric/"
   }
 ]
