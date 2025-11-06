@@ -1,43 +1,67 @@
 [
   {
     "category": "News",
-    "title": "From Classical Models to AI: Forecasting Humidity for Energy and Water Efficiency in Data Centers",
+    "title": "Multi-Agent SQL Assistant, Part 2: Building a RAG Manager",
     "source": "towardsdatascience.com",
-    "date": "2025-11-02",
-    "summary": "From ARIMA to N-BEATS: Comparing forecasting approaches that balance accuracy, interpretability, and sustainability The post From Classical Models to AI: Forecasting Humidity for Energy and Water Effi…",
-    "link": "https://towardsdatascience.com/from-classical-models-to-ai-forecasting-humidity-for-energy-and-water-efficiency-in-data-centers-2/"
+    "date": "2025-11-06",
+    "summary": "A hands-on guide to comparing multiple RAG strategies — Keyword, FAISS, and Chroma The post Multi-Agent SQL Assistant, Part 2: Building a RAG Manager appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/multi-agent-sql-assistant-part-2-building-a-rag-manager/"
   },
   {
     "category": "News",
-    "title": "MobileNetV3 Paper Walkthrough: The Tiny Giant Getting Even Smarter",
+    "title": "We Didn’t Invent Attention — We Just Rediscovered It",
     "source": "towardsdatascience.com",
-    "date": "2025-11-02",
-    "summary": "MobileNetV3 with PyTorch — now featuring SE blocks and hard activation functions The post MobileNetV3 Paper Walkthrough: The Tiny Giant Getting Even Smarter appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/mobilenetv3-paper-walkthrough-the-tiny-giant-getting-even-smarter/"
+    "date": "2025-11-05",
+    "summary": "How selective amplification emerged across evolution, chemistry, and AI through convergent mathematical solutions The post We Didn’t Invent Attention — We Just Rediscovered It appeared first on Toward…",
+    "link": "https://towardsdatascience.com/we-didnt-invent-attention-we-just-rediscovered-it/"
   },
   {
     "category": "News",
-    "title": "The Pearson Correlation Coefficient, Explained Simply",
+    "title": "AI Papers to Read in 2025",
     "source": "towardsdatascience.com",
-    "date": "2025-11-01",
-    "summary": "A simple explanation of the Pearson correlation coefficient with examples The post The Pearson Correlation Coefficient, Explained Simply appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/pearson-correlation-coefficient-explained-simply/"
+    "date": "2025-11-05",
+    "summary": "Reading suggestions to keep you up-to-date with the latest and classic breakthroughs in AI and Data Science. The post AI Papers to Read in 2025 appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/ai-papers-to-read-in-2025/"
   },
   {
     "category": "News",
-    "title": "Graph RAG vs SQL RAG",
+    "title": "How to Evaluate Retrieval Quality in RAG Pipelines (part 2): Mean Reciprocal Rank (MRR) and Average Precision (AP)",
     "source": "towardsdatascience.com",
-    "date": "2025-11-01",
-    "summary": "Evaluating RAGs on graph and SQL databases The post Graph RAG vs SQL RAG appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/graph-rag-vs-sql-rag/"
+    "date": "2025-11-05",
+    "summary": "Evaluating the retrieval quality of your RAG pipeline with binary, order-aware measures The post How to Evaluate Retrieval Quality in RAG Pipelines (part 2): Mean Reciprocal Rank (MRR) and Average Pre…",
+    "link": "https://towardsdatascience.com/how-to-evaluate-retrieval-quality-in-rag-pipelines-part-2-mean-reciprocal-rank-mrr-and-average-precision-ap/"
   },
   {
     "category": "News",
-    "title": "Let Hypothesis Break Your Python Code Before Your Users Do",
+    "title": "Why Nonparametric Models Deserve a Second Look",
     "source": "towardsdatascience.com",
-    "date": "2025-10-31",
-    "summary": "Property-based tests that find bugs you didn’t know existed. The post Let Hypothesis Break Your Python Code Before Your Users Do appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/let-hypothesis-break-your-python-code-before-your-users-do/"
+    "date": "2025-11-05",
+    "summary": "Discover how nonparametric conditional distributions unify regression, classification, and synthetic data generation—without assuming functional forms. The post Why Nonparametric Models Deserve a Seco…",
+    "link": "https://towardsdatascience.com/why-nonparametric-models-deserve-a-second-look/"
+  },
+  {
+    "category": "News",
+    "title": "How Amazon Search increased ML training twofold using AWS Batch for Amazon SageMaker Training jobs",
+    "source": "aws.amazon.com",
+    "date": "2025-11-05",
+    "summary": "In this post, we show you how Amazon Search optimized GPU instance utilization by leveraging AWS Batch for SageMaker Training jobs. This managed solution enabled us to orchestrate machine learning (ML…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-search-increased-ml-training-twofold-using-aws-batch-for-amazon-sagemaker-training-jobs/"
+  },
+  {
+    "category": "News",
+    "title": "Iterate faster with Amazon Bedrock AgentCore Runtime direct code deployment",
+    "source": "aws.amazon.com",
+    "date": "2025-11-04",
+    "summary": "Amazon Bedrock AgentCore is an agentic platform for building, deploying, and operating effective agents securely at scale. Amazon Bedrock AgentCore Runtime is a fully managed service of Bedrock AgentC…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/iterate-faster-with-amazon-bedrock-agentcore-runtime-direct-code-deployment/"
+  },
+  {
+    "category": "News",
+    "title": "How Switchboard, MD automates real-time call transcription in clinical contact centers with Amazon Nova Sonic",
+    "source": "aws.amazon.com",
+    "date": "2025-11-03",
+    "summary": "In this post, we examine the specific challenges Switchboard, MD faced with scaling transcription accuracy and cost-effectiveness in clinical environments, their evaluation process for selecting the r…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-switchboard-md-automates-real-time-call-transcription-in-clinical-contact-centers-with-amazon-nova-sonic/"
   },
   {
     "category": "News",
@@ -57,27 +81,19 @@
   },
   {
     "category": "News",
-    "title": "Clario streamlines clinical trial software configurations using Amazon Bedrock",
-    "source": "aws.amazon.com",
-    "date": "2025-10-31",
-    "summary": "This post builds upon our previous post discussing how Clario developed an AI solution powered by Amazon Bedrock to accelerate clinical trials. Since then, Clario has further enhanced their AI capabil…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/clario-streamlines-clinical-trial-software-configurations-using-amazon-bedrock/"
+    "title": "Power BI semantic models as accelerators for AI-enabled consumption",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-05",
+    "summary": "As data volumes grow exponentially, Power BI customers demand AI-driven analytical solutions that scale to petabytes, are secure, governed, and easy to manage. Power BI semantic models, backed by Micr…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-semantic-models-as-accelerators-for-ai-enabled-consumption/"
   },
   {
     "category": "News",
-    "title": "Introducing Amazon Bedrock cross-Region inference for Claude Sonnet 4.5 and Haiku 4.5 in Japan and Australia",
-    "source": "aws.amazon.com",
-    "date": "2025-10-31",
-    "summary": "こんにちは, G’day. The recent launch of Anthropic’s Claude Sonnet 4.5 and Claude Haiku 4.5, now available on Amazon Bedrock, marks a significant leap forward in generative AI models. These state-of-the-art…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-cross-region-inference-for-claude-sonnet-4-5-and-haiku-4-5-in-japan-and-australia/"
-  },
-  {
-    "category": "News",
-    "title": "Reduce CAPTCHAs for AI agents browsing the web with Web Bot Auth (Preview) in Amazon Bedrock AgentCore Browser",
-    "source": "aws.amazon.com",
-    "date": "2025-10-30",
-    "summary": "AI agents need to browse the web on your behalf. When your agent visits a website to gather information, complete a form, or verify data, it encounters the same defenses designed to stop unwanted bots…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/reduce-captchas-for-ai-agents-browsing-the-web-with-web-bot-auth-preview-in-amazon-bedrock-agentcore-browser/"
+    "title": "Advance your career in Data &amp; AI with Microsoft Fabric Data Days",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-03",
+    "summary": "There’s no AI without data. Are you ready to invest in your future? Fabric Data Days starts on November 4th! We’re offering 50+ days of immersive learning designed for data professionals at every leve…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/advance-your-career-in-data-ai-with-microsoft-fabric-data-days/"
   },
   {
     "category": "News",
@@ -97,26 +113,10 @@
   },
   {
     "category": "News",
-    "title": "Deprecation Announcement: Office Online Server Retirement and What It Means for Power BI Report Server Users",
+    "title": "Deprecation Announcement: Office Online Server Retirement and What it Means for Power BI Report Server Users",
     "source": "powerbi.microsoft.com",
     "date": "2025-10-28",
     "summary": "What’s Changing? Microsoft has announced that Office Online Server (OOS) will be retired effective December 31, 2026. As a result, PBIRS users will no longer be able to host Excel workbooks in PBIRS u…",
     "link": "https://powerbi.microsoft.com/en-us/blog/deprecation-announcement-office-online-server-retirement-and-what-it-means-for-power-bi-report-server-users/"
-  },
-  {
-    "category": "News",
-    "title": "Introducing Power BI Controller: Streamlining Storytelling with Bulk Operations (Preview)",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-27",
-    "summary": "This feature was developed in direct response to feedback from our user community and is designed to provide an efficient tool for managing multiple Power BI add-ins within PowerPoint presentations. B…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-controller-streamlining-storytelling-with-bulk-operations-preview/"
-  },
-  {
-    "category": "News",
-    "title": "Introducing Improvements to the Report Copilot in Power BI",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-20",
-    "summary": "We’ve upgraded the Report Copilot experience in Power BI, making it easier than ever to create, edit, and refine beautiful, data-rich reports with the help of AI. With this update, Copilot in Power BI…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/introducing-improvements-to-the-report-copilot-in-power-bi/"
   }
 ]
