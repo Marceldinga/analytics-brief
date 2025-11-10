@@ -1,43 +1,75 @@
 [
   {
     "category": "News",
-    "title": "Multi-Agent SQL Assistant, Part 2: Building a RAG Manager",
+    "title": "LLM-Powered Time-Series Analysis",
     "source": "towardsdatascience.com",
+    "date": "2025-11-09",
+    "summary": "Part 2: Prompts for Advanced Model Development The post LLM-Powered Time-Series Analysis appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/llm-powered-time-series-analysis/"
+  },
+  {
+    "category": "News",
+    "title": "How to Build Your Own Agentic AI System Using CrewAI",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-09",
+    "summary": "This article demonstrates how to develop your own Agentic AI system using CrewAI framework. By orchestrating specialized agents with distinct roles and tools, we implement a multi-agent team that is c…",
+    "link": "https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/"
+  },
+  {
+    "category": "News",
+    "title": "Power Analysis in Marketing: A Hands-On Introduction",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-08",
+    "summary": "Part 1: What is statistical power and how do we compute it? The post Power Analysis in Marketing: A Hands-On Introduction appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/power-analysis-in-marketing/"
+  },
+  {
+    "category": "News",
+    "title": "Evaluating Synthetic Data — The Million Dollar Question",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-07",
+    "summary": "Learn how to evaluate synthetic data quality using the Maximum Similarity Test — a simple, quantitative approach for assessing fidelity, utility, and privacy in synthetic datasets. The post Evaluating…",
+    "link": "https://towardsdatascience.com/evaluating-synthetic-data-the-million-dollar-question-a54701d1b621/"
+  },
+  {
+    "category": "News",
+    "title": "Beyond Numbers: How to Humanize Your Data & Analysis",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-07",
+    "summary": "The scintillating grid optical illusion is a perfect metaphor for how raw data can mislead us, causing us to see false trends. To escape the \"data-rich, action-poor\" paradox, organizations should need…",
+    "link": "https://towardsdatascience.com/beyond-numbers-how-to-humanize-your-data-analysis/"
+  },
+  {
+    "category": "News",
+    "title": "Connect Amazon Bedrock agents to cross-account knowledge bases",
+    "source": "aws.amazon.com",
+    "date": "2025-11-07",
+    "summary": "Organizations need seamless access to their structured data repositories to power intelligent AI agents. However, when these resources span multiple AWS accounts integration challenges can arise. This…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agents-to-cross-account-knowledge-bases/"
+  },
+  {
+    "category": "News",
+    "title": "Democratizing AI: How Thomson Reuters Open Arena supports no-code AI for every professional with Amazon Bedrock",
+    "source": "aws.amazon.com",
+    "date": "2025-11-07",
+    "summary": "In this blog post, we explore how TR addressed key business use cases with Open Arena, a highly scalable and flexible no-code AI solution powered by Amazon Bedrock and other AWS services such as Amazo…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/"
+  },
+  {
+    "category": "News",
+    "title": "Introducing structured output for Custom Model Import in Amazon Bedrock",
+    "source": "aws.amazon.com",
+    "date": "2025-11-07",
+    "summary": "Today, we are excited to announce the addition of structured output to Custom Model Import. Structured output constrains a model's generation process in real time so that every token it produces confo…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-structured-output-for-custom-model-import-in-amazon-bedrock/"
+  },
+  {
+    "category": "News",
+    "title": "Transform your MCP architecture: Unite MCP servers through AgentCore Gateway",
+    "source": "aws.amazon.com",
     "date": "2025-11-06",
-    "summary": "A hands-on guide to comparing multiple RAG strategies — Keyword, FAISS, and Chroma The post Multi-Agent SQL Assistant, Part 2: Building a RAG Manager appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/multi-agent-sql-assistant-part-2-building-a-rag-manager/"
-  },
-  {
-    "category": "News",
-    "title": "We Didn’t Invent Attention — We Just Rediscovered It",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-05",
-    "summary": "How selective amplification emerged across evolution, chemistry, and AI through convergent mathematical solutions The post We Didn’t Invent Attention — We Just Rediscovered It appeared first on Toward…",
-    "link": "https://towardsdatascience.com/we-didnt-invent-attention-we-just-rediscovered-it/"
-  },
-  {
-    "category": "News",
-    "title": "AI Papers to Read in 2025",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-05",
-    "summary": "Reading suggestions to keep you up-to-date with the latest and classic breakthroughs in AI and Data Science. The post AI Papers to Read in 2025 appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/ai-papers-to-read-in-2025/"
-  },
-  {
-    "category": "News",
-    "title": "How to Evaluate Retrieval Quality in RAG Pipelines (part 2): Mean Reciprocal Rank (MRR) and Average Precision (AP)",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-05",
-    "summary": "Evaluating the retrieval quality of your RAG pipeline with binary, order-aware measures The post How to Evaluate Retrieval Quality in RAG Pipelines (part 2): Mean Reciprocal Rank (MRR) and Average Pre…",
-    "link": "https://towardsdatascience.com/how-to-evaluate-retrieval-quality-in-rag-pipelines-part-2-mean-reciprocal-rank-mrr-and-average-precision-ap/"
-  },
-  {
-    "category": "News",
-    "title": "Why Nonparametric Models Deserve a Second Look",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-05",
-    "summary": "Discover how nonparametric conditional distributions unify regression, classification, and synthetic data generation—without assuming functional forms. The post Why Nonparametric Models Deserve a Seco…",
-    "link": "https://towardsdatascience.com/why-nonparametric-models-deserve-a-second-look/"
+    "summary": "Earlier this year, we introduced Amazon Bedrock AgentCore Gateway, a fully managed service that serves as a centralized MCP tool server, providing a unified interface where agents can discover, access…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/transform-your-mcp-architecture-unite-mcp-servers-through-agentcore-gateway/"
   },
   {
     "category": "News",
@@ -46,38 +78,6 @@
     "date": "2025-11-05",
     "summary": "In this post, we show you how Amazon Search optimized GPU instance utilization by leveraging AWS Batch for SageMaker Training jobs. This managed solution enabled us to orchestrate machine learning (ML…",
     "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-search-increased-ml-training-twofold-using-aws-batch-for-amazon-sagemaker-training-jobs/"
-  },
-  {
-    "category": "News",
-    "title": "Iterate faster with Amazon Bedrock AgentCore Runtime direct code deployment",
-    "source": "aws.amazon.com",
-    "date": "2025-11-04",
-    "summary": "Amazon Bedrock AgentCore is an agentic platform for building, deploying, and operating effective agents securely at scale. Amazon Bedrock AgentCore Runtime is a fully managed service of Bedrock AgentC…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/iterate-faster-with-amazon-bedrock-agentcore-runtime-direct-code-deployment/"
-  },
-  {
-    "category": "News",
-    "title": "How Switchboard, MD automates real-time call transcription in clinical contact centers with Amazon Nova Sonic",
-    "source": "aws.amazon.com",
-    "date": "2025-11-03",
-    "summary": "In this post, we examine the specific challenges Switchboard, MD faced with scaling transcription accuracy and cost-effectiveness in clinical environments, their evaluation process for selecting the r…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-switchboard-md-automates-real-time-call-transcription-in-clinical-contact-centers-with-amazon-nova-sonic/"
-  },
-  {
-    "category": "News",
-    "title": "Build reliable AI systems with Automated Reasoning on Amazon Bedrock – Part 1",
-    "source": "aws.amazon.com",
-    "date": "2025-10-31",
-    "summary": "Enterprises in regulated industries often need mathematical certainty that every AI response complies with established policies and domain knowledge. Regulated industries can’t use traditional quality…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-systems-with-automated-reasoning-on-amazon-bedrock-part-1/"
-  },
-  {
-    "category": "News",
-    "title": "Custom Intelligence: Building AI that matches your business DNA",
-    "source": "aws.amazon.com",
-    "date": "2025-10-31",
-    "summary": "In 2024, we launched the Custom Model Program within the AWS Generative AI Innovation Center to provide comprehensive support throughout every stage of model customization and optimization. Over the p…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/custom-intelligence-building-ai-that-matches-your-business-dna/"
   },
   {
     "category": "News",
