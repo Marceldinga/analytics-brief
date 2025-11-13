@@ -1,83 +1,91 @@
 [
   {
     "category": "News",
-    "title": "LLM-Powered Time-Series Analysis",
+    "title": "Spearman Correlation Coefficient for When Pearson Isn’t Enough",
     "source": "towardsdatascience.com",
-    "date": "2025-11-09",
-    "summary": "Part 2: Prompts for Advanced Model Development The post LLM-Powered Time-Series Analysis appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/llm-powered-time-series-analysis/"
+    "date": "2025-11-13",
+    "summary": "Not all relationships are linear, and that is where Spearman comes in. The post Spearman Correlation Coefficient for When Pearson Isn’t Enough appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/spearman-correlation-coefficient-for-when-pearson-isnt-enough/"
   },
   {
     "category": "News",
-    "title": "How to Build Your Own Agentic AI System Using CrewAI",
+    "title": "Deploy Your AI Assistant to Monitor and Debug n8n Workflows Using Claude and MCP",
     "source": "towardsdatascience.com",
-    "date": "2025-11-09",
-    "summary": "This article demonstrates how to develop your own Agentic AI system using CrewAI framework. By orchestrating specialized agents with distinct roles and tools, we implement a multi-agent team that is c…",
-    "link": "https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/"
+    "date": "2025-11-12",
+    "summary": "Use Claude AI to monitor, analyse, and troubleshoot your n8n automation workflows through natural conversation. The post Deploy Your AI Assistant to Monitor and Debug n8n Workflows Using Claude and MC…",
+    "link": "https://towardsdatascience.com/deploy-your-ai-assistant-to-monitor-and-debug-n8n-workflows-using-claude-and-mcp/"
   },
   {
     "category": "News",
-    "title": "Power Analysis in Marketing: A Hands-On Introduction",
+    "title": "The Ultimate Guide to Power BI Aggregations",
     "source": "towardsdatascience.com",
-    "date": "2025-11-08",
-    "summary": "Part 1: What is statistical power and how do we compute it? The post Power Analysis in Marketing: A Hands-On Introduction appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/power-analysis-in-marketing/"
+    "date": "2025-11-12",
+    "summary": "Aggregations are one of the most powerful features in Power BI — learn how to leverage this feature to improve the performance of your Power BI solution The post The Ultimate Guide to Power BI Aggrega…",
+    "link": "https://towardsdatascience.com/power-bi-aggregations-the-ultimate-guide/"
   },
   {
     "category": "News",
-    "title": "Evaluating Synthetic Data — The Million Dollar Question",
+    "title": "How to Evaluate Retrieval Quality in RAG Pipelines (Part 3): DCG@k and NDCG@k",
     "source": "towardsdatascience.com",
-    "date": "2025-11-07",
-    "summary": "Learn how to evaluate synthetic data quality using the Maximum Similarity Test — a simple, quantitative approach for assessing fidelity, utility, and privacy in synthetic datasets. The post Evaluating…",
-    "link": "https://towardsdatascience.com/evaluating-synthetic-data-the-million-dollar-question-a54701d1b621/"
+    "date": "2025-11-12",
+    "summary": "The third and final part for evaluating the retrieval quality of your RAG pipeline with graded measures The post How to Evaluate Retrieval Quality in RAG Pipelines (Part 3): DCG@k and NDCG@k appeared …",
+    "link": "https://towardsdatascience.com/how-to-evaluate-retrieval-quality-in-rag-pipelines-part-3-dcgk-and-ndcgk/"
   },
   {
     "category": "News",
-    "title": "Beyond Numbers: How to Humanize Your Data & Analysis",
+    "title": "Feature Detection, Part 2: Laplace & Gaussian Operators",
     "source": "towardsdatascience.com",
-    "date": "2025-11-07",
-    "summary": "The scintillating grid optical illusion is a perfect metaphor for how raw data can mislead us, causing us to see false trends. To escape the \"data-rich, action-poor\" paradox, organizations should need…",
-    "link": "https://towardsdatascience.com/beyond-numbers-how-to-humanize-your-data-analysis/"
+    "date": "2025-11-12",
+    "summary": "Laplace meets Gaussian — the story of two operators in edge detection The post Feature Detection, Part 2: Laplace & Gaussian Operators appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/feature-detection-part-2-laplace-gaussian-operators/"
   },
   {
     "category": "News",
-    "title": "Connect Amazon Bedrock agents to cross-account knowledge bases",
+    "title": "Introducing agent-to-agent protocol support in Amazon Bedrock AgentCore Runtime",
     "source": "aws.amazon.com",
-    "date": "2025-11-07",
-    "summary": "Organizations need seamless access to their structured data repositories to power intelligent AI agents. However, when these resources span multiple AWS accounts integration challenges can arise. This…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agents-to-cross-account-knowledge-bases/"
+    "date": "2025-11-11",
+    "summary": "In this post, we demonstrate how you can use the A2A protocol for AI agents built with different frameworks to collaborate seamlessly. You'll learn how to deploy A2A servers on AgentCore Runtime, conf…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-to-agent-protocol-support-in-amazon-bedrock-agentcore-runtime/"
   },
   {
     "category": "News",
-    "title": "Democratizing AI: How Thomson Reuters Open Arena supports no-code AI for every professional with Amazon Bedrock",
+    "title": "Powering enterprise search with the Cohere Embed 4 multimodal embeddings model in Amazon Bedrock",
     "source": "aws.amazon.com",
-    "date": "2025-11-07",
-    "summary": "In this blog post, we explore how TR addressed key business use cases with Open Arena, a highly scalable and flexible no-code AI solution powered by Amazon Bedrock and other AWS services such as Amazo…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/"
+    "date": "2025-11-11",
+    "summary": "The Cohere Embed 4 multimodal embeddings model is now available as a fully managed, serverless option in Amazon Bedrock. In this post, we dive into the benefits and unique capabilities of Embed 4 for …",
+    "link": "https://aws.amazon.com/blogs/machine-learning/powering-enterprise-search-with-the-cohere-embed-4-multimodal-embeddings-model-in-amazon-bedrock/"
   },
   {
     "category": "News",
-    "title": "Introducing structured output for Custom Model Import in Amazon Bedrock",
+    "title": "A guide to building AI agents in GxP environments",
     "source": "aws.amazon.com",
-    "date": "2025-11-07",
-    "summary": "Today, we are excited to announce the addition of structured output to Custom Model Import. Structured output constrains a model's generation process in real time so that every token it produces confo…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-structured-output-for-custom-model-import-in-amazon-bedrock/"
+    "date": "2025-11-11",
+    "summary": "The regulatory landscape for GxP compliance is evolving to address the unique characteristics of AI. Traditional Computer System Validation (CSV) approaches, often with uniform validation strategies, …",
+    "link": "https://aws.amazon.com/blogs/machine-learning/a-guide-to-building-ai-agents-in-gxp-environments/"
   },
   {
     "category": "News",
-    "title": "Transform your MCP architecture: Unite MCP servers through AgentCore Gateway",
+    "title": "Multi-Agent collaboration patterns with Strands Agents and Amazon Nova",
     "source": "aws.amazon.com",
-    "date": "2025-11-06",
-    "summary": "Earlier this year, we introduced Amazon Bedrock AgentCore Gateway, a fully managed service that serves as a centralized MCP tool server, providing a unified interface where agents can discover, access…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/transform-your-mcp-architecture-unite-mcp-servers-through-agentcore-gateway/"
+    "date": "2025-11-11",
+    "summary": "In this post, we explore four key collaboration patterns for multi-agent, multimodal AI systems – Agents as Tools, Swarms Agents, Agent Graphs, and Agent Workflows – and discuss when and how to apply …",
+    "link": "https://aws.amazon.com/blogs/machine-learning/multi-agent-collaboration-patterns-with-strands-agents-and-amazon-nova/"
   },
   {
     "category": "News",
-    "title": "How Amazon Search increased ML training twofold using AWS Batch for Amazon SageMaker Training jobs",
+    "title": "Fine-tune VLMs for multipage document-to-JSON with SageMaker AI and SWIFT",
     "source": "aws.amazon.com",
-    "date": "2025-11-05",
-    "summary": "In this post, we show you how Amazon Search optimized GPU instance utilization by leveraging AWS Batch for SageMaker Training jobs. This managed solution enabled us to orchestrate machine learning (ML…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-search-increased-ml-training-twofold-using-aws-batch-for-amazon-sagemaker-training-jobs/"
+    "date": "2025-11-10",
+    "summary": "In this post, we demonstrate that fine-tuning VLMs provides a powerful and flexible approach to automate and significantly enhance document understanding capabilities. We also demonstrate that using f…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-vlms-for-multipage-document-to-json-with-sagemaker-ai-and-swift/"
+  },
+  {
+    "category": "News",
+    "title": "Microsoft named Leader and Outperformer in the 2025 GigaOm Radar for Semantic Layers &amp; Metric Stores ",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-11",
+    "summary": "In today’s data-driven world, semantic models have become the backbone of trustworthy analytics. They define business logic, metrics, and relationships that turn raw data into meaningful, trusted and …",
+    "link": "https://powerbi.microsoft.com/en-us/blog/microsoft-named-leader-and-outperformer-in-the-2025-gigaom-radar-for-semantic-layers-metric-stores/"
   },
   {
     "category": "News",
@@ -110,13 +118,5 @@
     "date": "2025-10-28",
     "summary": "Announcing Power BI app Copilot, now in preview. With app-scoped Copilot, users can search for reports in an app plus ask questions and get connected with answers based on a report in an app. App Copi…",
     "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-app-copilot-ai-scoped-to-the-curated-content-in-an-app-preview/"
-  },
-  {
-    "category": "News",
-    "title": "Deprecation Announcement: Office Online Server Retirement and What it Means for Power BI Report Server Users",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-28",
-    "summary": "What’s Changing? Microsoft has announced that Office Online Server (OOS) will be retired effective December 31, 2026. As a result, PBIRS users will no longer be able to host Excel workbooks in PBIRS u…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/deprecation-announcement-office-online-server-retirement-and-what-it-means-for-power-bi-report-server-users/"
   }
 ]
