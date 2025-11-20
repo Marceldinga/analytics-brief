@@ -1,83 +1,115 @@
 [
   {
     "category": "News",
-    "title": "Javascript Fatigue: HTMX is all you need to build ChatGPT — Part 1",
+    "title": "Why I’m Making the Switch to marimo Notebooks",
     "source": "towardsdatascience.com",
+    "date": "2025-11-20",
+    "summary": "A fresh way to think about computational notebooks The post Why I’m Making the Switch to marimo Notebooks appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/why-im-making-the-switch-to-marimo-notebooks/"
+  },
+  {
+    "category": "News",
+    "title": "How to Perform Agentic Information Retrieval",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-19",
+    "summary": "Learn how to utilize AI agents to find information in your document corpus The post How to Perform Agentic Information Retrieval appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/how-to-perform-agentic-information-retrieval/"
+  },
+  {
+    "category": "News",
+    "title": "Developing Human Sexuality in the Age of AI",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-19",
+    "summary": "How we learn is changing with generative AI — what does that mean for sex education, consent, and responsibility? The post Developing Human Sexuality in the Age of AI appeared first on Towards Data Sc…",
+    "link": "https://towardsdatascience.com/developing-human-sexuality-in-the-age-of-ai/"
+  },
+  {
+    "category": "News",
+    "title": "PyTorch Tutorial for Beginners: Build a Multiple Regression Model from Scratch",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-19",
+    "summary": "Hands-on PyTorch: Building a 3-layer neural network for multiple regression The post PyTorch Tutorial for Beginners: Build a Multiple Regression Model from Scratch appeared first on Towards Data Scien…",
+    "link": "https://towardsdatascience.com/pytorch-tutorial-for-beginners-build-a-multiple-regression-model-from-scratch/"
+  },
+  {
+    "category": "News",
+    "title": "Making Smarter Bets: Towards a Winning AI Strategy with Probabilistic Thinking",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-19",
+    "summary": "Practical guidance on identifying opportunities, managing product portfolios, and overcoming behavioral biases The post Making Smarter Bets: Towards a Winning AI Strategy with Probabilistic Thinking a…",
+    "link": "https://towardsdatascience.com/making-smarter-bets-towards-a-winning-ai-strategy-with-probabilistic-thinking/"
+  },
+  {
+    "category": "News",
+    "title": "Claude Code deployment patterns and best practices with Amazon Bedrock",
+    "source": "aws.amazon.com",
+    "date": "2025-11-19",
+    "summary": "In this post, we explore deployment patterns and best practices for Claude Code with Amazon Bedrock, covering authentication methods, infrastructure decisions, and monitoring strategies to help enterp…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/"
+  },
+  {
+    "category": "News",
+    "title": "Amazon Bedrock Guardrails expands support for code domain",
+    "source": "aws.amazon.com",
+    "date": "2025-11-19",
+    "summary": "Amazon Bedrock Guardrails now extends its safety controls to protect code generation across twelve programming languages, addressing critical security challenges in AI-assisted software development. I…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-guardrails-expands-support-for-code-domain/"
+  },
+  {
+    "category": "News",
+    "title": "Announcing the AWS Well-Architected Responsible AI Lens ",
+    "source": "aws.amazon.com",
+    "date": "2025-11-19",
+    "summary": "Today, we're announcing the AWS Well-Architected Responsible AI Lens—a set of thoughtful questions and corresponding best practices that help builders address responsible AI concerns throughout develo…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/announcing-the-aws-well-architected-responsible-ai-lens/"
+  },
+  {
+    "category": "News",
+    "title": "How Amazon uses AI agents to support compliance screening of billions of transactions per day",
+    "source": "aws.amazon.com",
+    "date": "2025-11-19",
+    "summary": "Amazon's AI-powered Amazon Compliance Screening system tackles complex compliance challenges through autonomous agents that analyze, reason through, and resolve cases with precision. This blog post ex…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-uses-ai-agents-to-support-compliance-screening-of-billions-of-transactions-per-day/"
+  },
+  {
+    "category": "News",
+    "title": "Build an agentic solution with Amazon Nova, Snowflake, and LangGraph",
+    "source": "aws.amazon.com",
+    "date": "2025-11-19",
+    "summary": "In this post, we cover how you can use tools from Snowflake AI Data Cloud and Amazon Web Services (AWS) to build generative AI solutions that organizations can use to make data-driven decisions, incre…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-solution-with-amazon-nova-snowflake-and-langgraph/"
+  },
+  {
+    "category": "News",
+    "title": "Standalone Copilot in Power BI mobile apps: Chat with your data anytime anywhere (Preview)",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-19",
+    "summary": "We’re excited to announce the release of the Standalone Copilot experience in Power BI Mobile apps! Copilot in Power BI on mobile is a new way to get insights from your Power BI data. You no longer ha…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/standalone-copilot-in-power-bi-mobile-apps-chat-with-your-data-anytime-anywhere-preview/"
+  },
+  {
+    "category": "News",
+    "title": "Bringing Context Aware Intelligence to Power BI",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-18",
+    "summary": "Ten years ago, Power BI entered the market and transformed how businesses interact with data. Before self-service BI, business users waited days, sometimes weeks, for IT teams to build reports and ans…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/bringing-context-aware-intelligence-to-power-bi/"
+  },
+  {
+    "category": "News",
+    "title": "Power BI November 2025 Feature Summary",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-18",
+    "summary": "The November 2025 Power BI feature update brings several important announcements and enhancements across the platform. Key highlights include the deprecation of R and Python visuals in the Embed for y…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-november-2025-feature-summary/"
+  },
+  {
+    "category": "News",
+    "title": "PBIR will become the default Power BI Report Format &#8211; Get Ready for the Transition",
+    "source": "powerbi.microsoft.com",
     "date": "2025-11-17",
-    "summary": "Building a chatbot (almost) without Javascript, only with Python and HTML. The post Javascript Fatigue: HTMX is all you need to build ChatGPT — Part 1 appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/javascript-fatigue-you-dont-need-js-to-build-chatgpt/"
-  },
-  {
-    "category": "News",
-    "title": "I Built an IOS App in 3 Days with Literally No Prior Swift Knowledge",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-16",
-    "summary": "What I learned about vibe coding, AI tools, and getting started as a solopreneur The post I Built an IOS App in 3 Days with Literally No Prior Swift Knowledge appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/i-built-an-ios-app-in-3-days-with-literally-no-prior-swift-knowledge/"
-  },
-  {
-    "category": "News",
-    "title": "Stop Worrying about AGI: The Immediate Danger is Reduced General Intelligence (RGI)",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-16",
-    "summary": "Let's make conscious and deliberate choices when we use AI. The post Stop Worrying about AGI: The Immediate Danger is Reduced General Intelligence (RGI) appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/stop-worrying-about-agi-the-immediate-danger-is-reduced-general-intelligence-rgi/"
-  },
-  {
-    "category": "News",
-    "title": "How to Automate Workflows with AI",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-15",
-    "summary": "Learn how to take a manual process and optimize it using AI The post How to Automate Workflows with AI appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/how-to-automate-workflows-with-ai/"
-  },
-  {
-    "category": "News",
-    "title": "I Measured Neural Network Training Every 5 Steps for 10,000 Iterations",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-15",
-    "summary": "Image by Pixabay.com The post I Measured Neural Network Training Every 5 Steps for 10,000 Iterations appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/i-measured-neural-network-training-every-5-steps-for-10000-iterations/"
-  },
-  {
-    "category": "News",
-    "title": "Build a biomedical research agent with Biomni tools and Amazon Bedrock AgentCore Gateway",
-    "source": "aws.amazon.com",
-    "date": "2025-11-14",
-    "summary": "In this post, we demonstrate how to build a production-ready biomedical research agent by integrating Biomni's specialized tools with Amazon Bedrock AgentCore Gateway, enabling researchers to access o…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-biomedical-research-agent-with-biomni-tools-and-amazon-bedrock-agentcore-gateway/"
-  },
-  {
-    "category": "News",
-    "title": "Make your web apps hands-free with Amazon Nova Sonic",
-    "source": "aws.amazon.com",
-    "date": "2025-11-14",
-    "summary": "Graphical user interfaces have carried the torch for decades, but today’s users increasingly expect to talk to their applications. In this post we show how we added a true voice-first experience to a …",
-    "link": "https://aws.amazon.com/blogs/machine-learning/make-your-web-apps-hands-free-with-amazon-nova-sonic/"
-  },
-  {
-    "category": "News",
-    "title": "Harnessing the power of generative AI: Druva’s multi-agent copilot for streamlined data protection",
-    "source": "aws.amazon.com",
-    "date": "2025-11-14",
-    "summary": "Generative AI is transforming the way businesses interact with their customers and revolutionizing conversational interfaces for complex IT operations. Druva, a leading provider of data security solut…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/harnessing-the-power-of-generative-ai-druvas-multi-agent-copilot-for-streamlined-data-protection/"
-  },
-  {
-    "category": "News",
-    "title": "Introducing agent-to-agent protocol support in Amazon Bedrock AgentCore Runtime",
-    "source": "aws.amazon.com",
-    "date": "2025-11-11",
-    "summary": "In this post, we demonstrate how you can use the A2A protocol for AI agents built with different frameworks to collaborate seamlessly. You'll learn how to deploy A2A servers on AgentCore Runtime, conf…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-to-agent-protocol-support-in-amazon-bedrock-agentcore-runtime/"
-  },
-  {
-    "category": "News",
-    "title": "Powering enterprise search with the Cohere Embed 4 multimodal embeddings model in Amazon Bedrock",
-    "source": "aws.amazon.com",
-    "date": "2025-11-11",
-    "summary": "The Cohere Embed 4 multimodal embeddings model is now available as a fully managed, serverless option in Amazon Bedrock. In this post, we dive into the benefits and unique capabilities of Embed 4 for …",
-    "link": "https://aws.amazon.com/blogs/machine-learning/powering-enterprise-search-with-the-cohere-embed-4-multimodal-embeddings-model-in-amazon-bedrock/"
+    "summary": "Starting in January 2026, all new reports created in both Power BI Service and Desktop will use the PBIR format by default, and existing reports will be automatically converted to PBIR when edited and…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/pbir-will-become-the-default-power-bi-report-format-get-ready-for-the-transition/"
   },
   {
     "category": "News",
@@ -86,37 +118,5 @@
     "date": "2025-11-11",
     "summary": "In today’s data-driven world, semantic models have become the backbone of trustworthy analytics. They define business logic, metrics, and relationships that turn raw data into meaningful, trusted and …",
     "link": "https://powerbi.microsoft.com/en-us/blog/microsoft-named-leader-and-outperformer-in-the-2025-gigaom-radar-for-semantic-layers-metric-stores/"
-  },
-  {
-    "category": "News",
-    "title": "Power BI semantic models as accelerators for AI-enabled consumption",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-11-05",
-    "summary": "As data volumes grow exponentially, Power BI customers demand AI-driven analytical solutions that scale to petabytes, are secure, governed, and easy to manage. Power BI semantic models, backed by Micr…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-semantic-models-as-accelerators-for-ai-enabled-consumption/"
-  },
-  {
-    "category": "News",
-    "title": "Advance your career in Data &amp; AI with Microsoft Fabric Data Days",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-11-03",
-    "summary": "There’s no AI without data. Are you ready to invest in your future? Fabric Data Days starts on November 4th! We’re offering 50+ days of immersive learning designed for data professionals at every leve…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/advance-your-career-in-data-ai-with-microsoft-fabric-data-days/"
-  },
-  {
-    "category": "News",
-    "title": "Preparing for the General Availability of the new Card visual",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-29",
-    "summary": "One change may impact the behavior and look of the new card visual in existing reports. The callout size and background setting will be available with or without a divider after GA.…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/prepare-for-new-card-visual/"
-  },
-  {
-    "category": "News",
-    "title": "Power BI app Copilot: AI scoped to the curated content in an app (Preview)",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-10-28",
-    "summary": "Announcing Power BI app Copilot, now in preview. With app-scoped Copilot, users can search for reports in an app plus ask questions and get connected with answers based on a report in an app. App Copi…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-app-copilot-ai-scoped-to-the-curated-content-in-an-app-preview/"
   }
 ]
