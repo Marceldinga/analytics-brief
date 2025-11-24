@@ -1,83 +1,99 @@
 [
   {
     "category": "News",
-    "title": "Why I’m Making the Switch to marimo Notebooks",
+    "title": "Learning Triton One Kernel at a Time: Softmax",
     "source": "towardsdatascience.com",
+    "date": "2025-11-23",
+    "summary": "All you need to know about a fast, readable and PyTorch-ready softmax kernel The post Learning Triton One Kernel at a Time: Softmax appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/learning-triton-one-kernel-at-a-time-softmax/"
+  },
+  {
+    "category": "News",
+    "title": "Your Next ‘Large’ Language Model Might Not Be Large After All",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-23",
+    "summary": "A 27M-parameter model just outperformed giants like DeepSeek R1, o3-mini, and Claude 3.7 on reasoning tasks The post Your Next ‘Large’ Language Model Might Not Be Large After All appeared first on Tow…",
+    "link": "https://towardsdatascience.com/your-next-large-language-model-might-not-be-large-afterall-2/"
+  },
+  {
+    "category": "News",
+    "title": "Empirical Mode Decomposition: The Most Intuitive Way to Decompose Complex Signals and Time Series",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-22",
+    "summary": "A step-by-step breakdown of empirical mode decomposition to help you extract patterns from time series The post Empirical Mode Decomposition: The Most Intuitive Way to Decompose Complex Signals and Ti…",
+    "link": "https://towardsdatascience.com/preprocessing-signal-data-with-empirical-mode-decomposition/"
+  },
+  {
+    "category": "News",
+    "title": "Overfitting vs. Underfitting: Making Sense of the Bias-Variance Trade-Off",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-22",
+    "summary": "The best models live in the sweet spot: generalizing well, learning enough, but not too much The post Overfitting vs. Underfitting: Making Sense of the Bias-Variance Trade-Off appeared first on Toward…",
+    "link": "https://towardsdatascience.com/overfitting-versus-underfitting/"
+  },
+  {
+    "category": "News",
+    "title": "Modern DataFrames in Python: A Hands-On Tutorial with Polars and DuckDB",
+    "source": "towardsdatascience.com",
+    "date": "2025-11-21",
+    "summary": "How I learned to handle growing datasets without slowing down my entire workflow The post Modern DataFrames in Python: A Hands-On Tutorial with Polars and DuckDB appeared first on Towards Data Science…",
+    "link": "https://towardsdatascience.com/modern-dataframes-in-python-a-hands-on-tutorial-with-polars-and-duckdb/"
+  },
+  {
+    "category": "News",
+    "title": "Streamline AI operations with the Multi-Provider Generative AI Gateway reference architecture",
+    "source": "aws.amazon.com",
+    "date": "2025-11-21",
+    "summary": "In this post, we introduce the Multi-Provider Generative AI Gateway reference architecture, which provides guidance for deploying LiteLLM into an AWS environment to streamline the management and gover…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/streamline-ai-operations-with-the-multi-provider-generative-ai-gateway-reference-architecture/"
+  },
+  {
+    "category": "News",
+    "title": "Deploy geospatial agents with Foursquare Spatial H3 Hub and Amazon SageMaker AI",
+    "source": "aws.amazon.com",
+    "date": "2025-11-21",
+    "summary": "In this post, you'll learn how to deploy geospatial AI agents that can answer complex spatial questions in minutes instead of months. By combining Foursquare Spatial H3 Hub's analysis-ready geospatial…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-geospatial-agents-with-foursquare-spatial-h3-hub-and-amazon-sagemaker-ai/"
+  },
+  {
+    "category": "News",
+    "title": "How Wipro PARI accelerates PLC code generation using Amazon Bedrock",
+    "source": "aws.amazon.com",
+    "date": "2025-11-21",
+    "summary": "In this post, we share how Wipro implemented advanced prompt engineering techniques, custom validation logic, and automated code rectification to streamline the development of industrial automation co…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-wipro-pari-accelerates-plc-code-generation-using-amazon-bedrock/"
+  },
+  {
+    "category": "News",
+    "title": "MSD explores applying generative Al to improve the deviation management process using AWS services",
+    "source": "aws.amazon.com",
     "date": "2025-11-20",
-    "summary": "A fresh way to think about computational notebooks The post Why I’m Making the Switch to marimo Notebooks appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/why-im-making-the-switch-to-marimo-notebooks/"
+    "summary": "This blog post has explores how MSD is harnessing the power of generative AI and databases to optimize and transform its manufacturing deviation management process. By creating an accurate and multifa…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/msd-explores-applying-generative-al-to-improve-the-deviation-management-process-using-aws-services/"
   },
   {
     "category": "News",
-    "title": "How to Perform Agentic Information Retrieval",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-19",
-    "summary": "Learn how to utilize AI agents to find information in your document corpus The post How to Perform Agentic Information Retrieval appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/how-to-perform-agentic-information-retrieval/"
-  },
-  {
-    "category": "News",
-    "title": "Developing Human Sexuality in the Age of AI",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-19",
-    "summary": "How we learn is changing with generative AI — what does that mean for sex education, consent, and responsibility? The post Developing Human Sexuality in the Age of AI appeared first on Towards Data Sc…",
-    "link": "https://towardsdatascience.com/developing-human-sexuality-in-the-age-of-ai/"
-  },
-  {
-    "category": "News",
-    "title": "PyTorch Tutorial for Beginners: Build a Multiple Regression Model from Scratch",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-19",
-    "summary": "Hands-on PyTorch: Building a 3-layer neural network for multiple regression The post PyTorch Tutorial for Beginners: Build a Multiple Regression Model from Scratch appeared first on Towards Data Scien…",
-    "link": "https://towardsdatascience.com/pytorch-tutorial-for-beginners-build-a-multiple-regression-model-from-scratch/"
-  },
-  {
-    "category": "News",
-    "title": "Making Smarter Bets: Towards a Winning AI Strategy with Probabilistic Thinking",
-    "source": "towardsdatascience.com",
-    "date": "2025-11-19",
-    "summary": "Practical guidance on identifying opportunities, managing product portfolios, and overcoming behavioral biases The post Making Smarter Bets: Towards a Winning AI Strategy with Probabilistic Thinking a…",
-    "link": "https://towardsdatascience.com/making-smarter-bets-towards-a-winning-ai-strategy-with-probabilistic-thinking/"
-  },
-  {
-    "category": "News",
-    "title": "Claude Code deployment patterns and best practices with Amazon Bedrock",
+    "title": "Accelerating genomics variant interpretation with AWS HealthOmics and Amazon Bedrock AgentCore",
     "source": "aws.amazon.com",
-    "date": "2025-11-19",
-    "summary": "In this post, we explore deployment patterns and best practices for Claude Code with Amazon Bedrock, covering authentication methods, infrastructure decisions, and monitoring strategies to help enterp…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/"
+    "date": "2025-11-20",
+    "summary": "In this blog post, we show you how agentic workflows can accelerate the processing and interpretation of genomics pipelines at scale with a natural language interface. We demonstrate a comprehensive g…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-genomics-variant-interpretation-with-aws-healthomics-and-amazon-bedrock-agentcore/"
   },
   {
     "category": "News",
-    "title": "Amazon Bedrock Guardrails expands support for code domain",
-    "source": "aws.amazon.com",
-    "date": "2025-11-19",
-    "summary": "Amazon Bedrock Guardrails now extends its safety controls to protect code generation across twelve programming languages, addressing critical security challenges in AI-assisted software development. I…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-guardrails-expands-support-for-code-domain/"
+    "title": "TMDL Visual Studio Code Extension (Generally Available)",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-20",
+    "summary": "This update brings DAX semantic highlighting support within TMDL documents alongside other enhanced authoring features like Power Query semantic highlighting, breadcrumb navigation, code actions, code…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/tmdl-visual-studio-code-extension-generally-available/"
   },
   {
     "category": "News",
-    "title": "Announcing the AWS Well-Architected Responsible AI Lens ",
-    "source": "aws.amazon.com",
-    "date": "2025-11-19",
-    "summary": "Today, we're announcing the AWS Well-Architected Responsible AI Lens—a set of thoughtful questions and corresponding best practices that help builders address responsible AI concerns throughout develo…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/announcing-the-aws-well-architected-responsible-ai-lens/"
-  },
-  {
-    "category": "News",
-    "title": "How Amazon uses AI agents to support compliance screening of billions of transactions per day",
-    "source": "aws.amazon.com",
-    "date": "2025-11-19",
-    "summary": "Amazon's AI-powered Amazon Compliance Screening system tackles complex compliance challenges through autonomous agents that analyze, reason through, and resolve cases with precision. This blog post ex…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-uses-ai-agents-to-support-compliance-screening-of-billions-of-transactions-per-day/"
-  },
-  {
-    "category": "News",
-    "title": "Build an agentic solution with Amazon Nova, Snowflake, and LangGraph",
-    "source": "aws.amazon.com",
-    "date": "2025-11-19",
-    "summary": "In this post, we cover how you can use tools from Snowflake AI Data Cloud and Amazon Web Services (AWS) to build generative AI solutions that organizations can use to make data-driven decisions, incre…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-solution-with-amazon-nova-snowflake-and-langgraph/"
+    "title": "New Card visual in reports (Generally Available)",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-20",
+    "summary": "The new card visual now generally available brings a modern and visually engaging way to highlight key metrics in your reports, now with support for hero images, new defaults, and consistent formattin…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-the-new-card-visual-in-reports-generally-available/"
   },
   {
     "category": "News",
@@ -102,21 +118,5 @@
     "date": "2025-11-18",
     "summary": "The November 2025 Power BI feature update brings several important announcements and enhancements across the platform. Key highlights include the deprecation of R and Python visuals in the Embed for y…",
     "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-november-2025-feature-summary/"
-  },
-  {
-    "category": "News",
-    "title": "PBIR will become the default Power BI Report Format &#8211; Get Ready for the Transition",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-11-17",
-    "summary": "Starting in January 2026, all new reports created in both Power BI Service and Desktop will use the PBIR format by default, and existing reports will be automatically converted to PBIR when edited and…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/pbir-will-become-the-default-power-bi-report-format-get-ready-for-the-transition/"
-  },
-  {
-    "category": "News",
-    "title": "Microsoft named Leader and Outperformer in the 2025 GigaOm Radar for Semantic Layers &amp; Metric Stores ",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-11-11",
-    "summary": "In today’s data-driven world, semantic models have become the backbone of trustworthy analytics. They define business logic, metrics, and relationships that turn raw data into meaningful, trusted and …",
-    "link": "https://powerbi.microsoft.com/en-us/blog/microsoft-named-leader-and-outperformer-in-the-2025-gigaom-radar-for-semantic-layers-metric-stores/"
   }
 ]
