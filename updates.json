@@ -1,83 +1,91 @@
 [
   {
     "category": "News",
-    "title": "Learning Triton One Kernel at a Time: Softmax",
+    "title": "Implementing the Rock Paper Scissors Game in Python",
     "source": "towardsdatascience.com",
-    "date": "2025-11-23",
-    "summary": "All you need to know about a fast, readable and PyTorch-ready softmax kernel The post Learning Triton One Kernel at a Time: Softmax appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/learning-triton-one-kernel-at-a-time-softmax/"
+    "date": "2025-11-27",
+    "summary": "A beginner-friendly Python tutorial using conditionals and the random module The post Implementing the Rock Paper Scissors Game in Python appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/implementing-the-rock-paper-scissors-game-in-python/"
   },
   {
     "category": "News",
-    "title": "Your Next ‘Large’ Language Model Might Not Be Large After All",
+    "title": "I Cleaned a Messy CSV File Using Pandas .  Here’s the Exact Process I Follow Every Time.",
     "source": "towardsdatascience.com",
-    "date": "2025-11-23",
-    "summary": "A 27M-parameter model just outperformed giants like DeepSeek R1, o3-mini, and Claude 3.7 on reasoning tasks The post Your Next ‘Large’ Language Model Might Not Be Large After All appeared first on Tow…",
-    "link": "https://towardsdatascience.com/your-next-large-language-model-might-not-be-large-afterall-2/"
+    "date": "2025-11-26",
+    "summary": "Stop guessing at data cleaning. Use this repeatable 5-step Python workflow to diagnose and fix the most common data flaws. The post I Cleaned a Messy CSV File Using Pandas . Here’s the Exact Process I…",
+    "link": "https://towardsdatascience.com/i-cleaned-a-messy-csv-file-using-pandas-heres-the-exact-process-i-follow-every-time/"
   },
   {
     "category": "News",
-    "title": "Empirical Mode Decomposition: The Most Intuitive Way to Decompose Complex Signals and Time Series",
+    "title": "RISAT’s Silent Promise: Decoding Disasters with Synthetic Aperture Radar",
     "source": "towardsdatascience.com",
-    "date": "2025-11-22",
-    "summary": "A step-by-step breakdown of empirical mode decomposition to help you extract patterns from time series The post Empirical Mode Decomposition: The Most Intuitive Way to Decompose Complex Signals and Ti…",
-    "link": "https://towardsdatascience.com/preprocessing-signal-data-with-empirical-mode-decomposition/"
+    "date": "2025-11-26",
+    "summary": "The high-resolution physics turning microwave echoes into real-time flood intelligence The post RISAT’s Silent Promise: Decoding Disasters with Synthetic Aperture Radar appeared first on Towards Data …",
+    "link": "https://towardsdatascience.com/risats-silent-promise-decoding-disasters-with-synthetic-aperture-radar/"
   },
   {
     "category": "News",
-    "title": "Overfitting vs. Underfitting: Making Sense of the Bias-Variance Trade-Off",
+    "title": "How I Use AI to Convince Companies to Adopt Sustainability",
     "source": "towardsdatascience.com",
-    "date": "2025-11-22",
-    "summary": "The best models live in the sweet spot: generalizing well, learning enough, but not too much The post Overfitting vs. Underfitting: Making Sense of the Bias-Variance Trade-Off appeared first on Toward…",
-    "link": "https://towardsdatascience.com/overfitting-versus-underfitting/"
+    "date": "2025-11-26",
+    "summary": "Discover how Claude can act as a Supply Chain Sustainability Analyst and guide companies toward greener, more efficient inventory management. The post How I Use AI to Convince Companies to Adopt Susta…",
+    "link": "https://towardsdatascience.com/how-i-use-ai-to-convince-companies-to-adopt-sustainability/"
   },
   {
     "category": "News",
-    "title": "Modern DataFrames in Python: A Hands-On Tutorial with Polars and DuckDB",
+    "title": "Why CrewAI’s Manager-Worker Architecture Fails — and How to Fix It",
     "source": "towardsdatascience.com",
-    "date": "2025-11-21",
-    "summary": "How I learned to handle growing datasets without slowing down my entire workflow The post Modern DataFrames in Python: A Hands-On Tutorial with Polars and DuckDB appeared first on Towards Data Science…",
-    "link": "https://towardsdatascience.com/modern-dataframes-in-python-a-hands-on-tutorial-with-polars-and-duckdb/"
+    "date": "2025-11-25",
+    "summary": "A real-world analysis of why CrewAI’s hierarchical orchestration misfires—and a practical fix you can implement today. The post Why CrewAI’s Manager-Worker Architecture Fails — and How to Fix It appea…",
+    "link": "https://towardsdatascience.com/why-crewais-manager-worker-architecture-fails-and-how-to-fix-it/"
   },
   {
     "category": "News",
-    "title": "Streamline AI operations with the Multi-Provider Generative AI Gateway reference architecture",
+    "title": "How Myriad Genetics achieved fast, accurate, and cost-efficient document processing using the AWS open-source Generative AI Intelligent Document Processing Accelerator",
     "source": "aws.amazon.com",
-    "date": "2025-11-21",
-    "summary": "In this post, we introduce the Multi-Provider Generative AI Gateway reference architecture, which provides guidance for deploying LiteLLM into an AWS environment to streamline the management and gover…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/streamline-ai-operations-with-the-multi-provider-generative-ai-gateway-reference-architecture/"
+    "date": "2025-11-27",
+    "summary": "In this post, we explore how Myriad Genetics partnered with the AWS Generative AI Innovation Center to transform their healthcare document processing pipeline using Amazon Bedrock and Amazon Nova foun…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-myriad-genetics-achieved-fast-accurate-and-cost-efficient-document-processing-using-the-aws-open-source-generative-ai-intelligent-document-processing-accelerator/"
   },
   {
     "category": "News",
-    "title": "Deploy geospatial agents with Foursquare Spatial H3 Hub and Amazon SageMaker AI",
+    "title": "How CBRE powers unified property management search and digital assistant using Amazon Bedrock",
     "source": "aws.amazon.com",
-    "date": "2025-11-21",
-    "summary": "In this post, you'll learn how to deploy geospatial AI agents that can answer complex spatial questions in minutes instead of months. By combining Foursquare Spatial H3 Hub's analysis-ready geospatial…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-geospatial-agents-with-foursquare-spatial-h3-hub-and-amazon-sagemaker-ai/"
+    "date": "2025-11-27",
+    "summary": "In this post, CBRE and AWS demonstrate how they transformed property management by building a unified search and digital assistant using Amazon Bedrock, enabling professionals to access millions of do…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-cbre-powers-unified-property-management-search-and-digital-assistant-using-amazon-bedrock/"
   },
   {
     "category": "News",
-    "title": "How Wipro PARI accelerates PLC code generation using Amazon Bedrock",
+    "title": "Managed Tiered KV Cache and Intelligent Routing for Amazon SageMaker HyperPod",
     "source": "aws.amazon.com",
-    "date": "2025-11-21",
-    "summary": "In this post, we share how Wipro implemented advanced prompt engineering techniques, custom validation logic, and automated code rectification to streamline the development of industrial automation co…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-wipro-pari-accelerates-plc-code-generation-using-amazon-bedrock/"
+    "date": "2025-11-27",
+    "summary": "In this post, we introduce Managed Tiered KV Cache and Intelligent Routing for Amazon SageMaker HyperPod, new capabilities that can reduce time to first token by up to 40% and lower compute costs by u…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/managed-tiered-kv-cache-and-intelligent-routing-for-amazon-sagemaker-hyperpod/"
   },
   {
     "category": "News",
-    "title": "MSD explores applying generative Al to improve the deviation management process using AWS services",
+    "title": "Apply fine-grained access control with Bedrock AgentCore Gateway interceptors",
     "source": "aws.amazon.com",
-    "date": "2025-11-20",
-    "summary": "This blog post has explores how MSD is harnessing the power of generative AI and databases to optimize and transform its manufacturing deviation management process. By creating an accurate and multifa…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/msd-explores-applying-generative-al-to-improve-the-deviation-management-process-using-aws-services/"
+    "date": "2025-11-26",
+    "summary": "We are launching a new feature: gateway interceptors for Amazon Bedrock AgentCore Gateway. This powerful new capability provides fine-grained security, dynamic access control, and flexible schema mana…",
+    "link": "https://aws.amazon.com/blogs/machine-learning/apply-fine-grained-access-control-with-bedrock-agentcore-gateway-interceptors/"
   },
   {
     "category": "News",
-    "title": "Accelerating genomics variant interpretation with AWS HealthOmics and Amazon Bedrock AgentCore",
+    "title": "How Condé Nast accelerated contract processing and rights analysis with Amazon Bedrock",
     "source": "aws.amazon.com",
-    "date": "2025-11-20",
-    "summary": "In this blog post, we show you how agentic workflows can accelerate the processing and interpretation of genomics pipelines at scale with a natural language interface. We demonstrate a comprehensive g…",
-    "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-genomics-variant-interpretation-with-aws-healthomics-and-amazon-bedrock-agentcore/"
+    "date": "2025-11-26",
+    "summary": "In this post, we explore how Condé Nast used Amazon Bedrock and Anthropic’s Claude to accelerate their contract processing and rights analysis workstreams. The company’s extensive portfolio, spanning …",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-accelerated-contract-processing-and-rights-analysis-with-amazon-bedrock/"
+  },
+  {
+    "category": "News",
+    "title": "Image Visual Enhancements for Report Creators",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-11-24",
+    "summary": "This update empowers report creators to craft more engaging experiences for report consumers. Report creators can easily maintain image visuals with more image formatting options, more image source op…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/image-visual-enhancements-for-report-creators/"
   },
   {
     "category": "News",
@@ -110,13 +118,5 @@
     "date": "2025-11-18",
     "summary": "Ten years ago, Power BI entered the market and transformed how businesses interact with data. Before self-service BI, business users waited days, sometimes weeks, for IT teams to build reports and ans…",
     "link": "https://powerbi.microsoft.com/en-us/blog/bringing-context-aware-intelligence-to-power-bi/"
-  },
-  {
-    "category": "News",
-    "title": "Power BI November 2025 Feature Summary",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-11-18",
-    "summary": "The November 2025 Power BI feature update brings several important announcements and enhancements across the platform. Key highlights include the deprecation of R and Python visuals in the Embed for y…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-november-2025-feature-summary/"
   }
 ]
