@@ -1,43 +1,43 @@
 [
   {
     "category": "News",
-    "title": "Implementing the Rock Paper Scissors Game in Python",
+    "title": "Why AI Alignment Starts With Better Evaluation",
     "source": "towardsdatascience.com",
-    "date": "2025-11-27",
-    "summary": "A beginner-friendly Python tutorial using conditionals and the random module The post Implementing the Rock Paper Scissors Game in Python appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/implementing-the-rock-paper-scissors-game-in-python/"
+    "date": "2025-12-01",
+    "summary": "You can’t align what you don’t evaluate The post Why AI Alignment Starts With Better Evaluation appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/why-ai-alignment-starts-with-better-evaluation/"
   },
   {
     "category": "News",
-    "title": "I Cleaned a Messy CSV File Using Pandas .  Here’s the Exact Process I Follow Every Time.",
+    "title": "The Machine Learning and Deep Learning “Advent Calendar” Series: The Blueprint",
     "source": "towardsdatascience.com",
-    "date": "2025-11-26",
-    "summary": "Stop guessing at data cleaning. Use this repeatable 5-step Python workflow to diagnose and fix the most common data flaws. The post I Cleaned a Messy CSV File Using Pandas . Here’s the Exact Process I…",
-    "link": "https://towardsdatascience.com/i-cleaned-a-messy-csv-file-using-pandas-heres-the-exact-process-i-follow-every-time/"
+    "date": "2025-11-30",
+    "summary": "Opening the black box of ML models, step by step, directly in Excel The post The Machine Learning and Deep Learning “Advent Calendar” Series: The Blueprint appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/machine-learning-and-deep-learning-in-excel-advent-calendar-announcement/"
   },
   {
     "category": "News",
-    "title": "RISAT’s Silent Promise: Decoding Disasters with Synthetic Aperture Radar",
+    "title": "The Greedy Boruta Algorithm: Faster Feature Selection Without Sacrificing Recall",
     "source": "towardsdatascience.com",
-    "date": "2025-11-26",
-    "summary": "The high-resolution physics turning microwave echoes into real-time flood intelligence The post RISAT’s Silent Promise: Decoding Disasters with Synthetic Aperture Radar appeared first on Towards Data …",
-    "link": "https://towardsdatascience.com/risats-silent-promise-decoding-disasters-with-synthetic-aperture-radar/"
+    "date": "2025-11-30",
+    "summary": "A modification to the Boruta algorithm that dramatically reduces computation while maintaining high sensitivity The post The Greedy Boruta Algorithm: Faster Feature Selection Without Sacrificing Recal…",
+    "link": "https://towardsdatascience.com/the-greedy-boruta-algorithm-faster-feature-selection-without-sacrificing-recall/"
   },
   {
     "category": "News",
-    "title": "How I Use AI to Convince Companies to Adopt Sustainability",
+    "title": "Metric Deception: When Your Best KPIs Hide Your Worst Failures",
     "source": "towardsdatascience.com",
-    "date": "2025-11-26",
-    "summary": "Discover how Claude can act as a Supply Chain Sustainability Analyst and guide companies toward greener, more efficient inventory management. The post How I Use AI to Convince Companies to Adopt Susta…",
-    "link": "https://towardsdatascience.com/how-i-use-ai-to-convince-companies-to-adopt-sustainability/"
+    "date": "2025-11-29",
+    "summary": "The most dangerous KPIs aren’t broken; they’re the ones trusted long after they’ve lost their meaning. The post Metric Deception: When Your Best KPIs Hide Your Worst Failures appeared first on Towards…",
+    "link": "https://towardsdatascience.com/metric-deception-when-your-best-kpis-hide-your-worst-failures/"
   },
   {
     "category": "News",
-    "title": "Why CrewAI’s Manager-Worker Architecture Fails — and How to Fix It",
+    "title": "How to Scale Your LLM Usage",
     "source": "towardsdatascience.com",
-    "date": "2025-11-25",
-    "summary": "A real-world analysis of why CrewAI’s hierarchical orchestration misfires—and a practical fix you can implement today. The post Why CrewAI’s Manager-Worker Architecture Fails — and How to Fix It appea…",
-    "link": "https://towardsdatascience.com/why-crewais-manager-worker-architecture-fails-and-how-to-fix-it/"
+    "date": "2025-11-29",
+    "summary": "Learn how to increase LLM usage to achieve increased productivity The post How to Scale Your LLM Usage appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/how-to-scale-your-llm-usage/"
   },
   {
     "category": "News",
