@@ -1,43 +1,43 @@
 [
   {
     "category": "News",
-    "title": "Why AI Alignment Starts With Better Evaluation",
+    "title": "Bootstrap a Data Lakehouse in an Afternoon",
     "source": "towardsdatascience.com",
-    "date": "2025-12-01",
-    "summary": "You can’t align what you don’t evaluate The post Why AI Alignment Starts With Better Evaluation appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/why-ai-alignment-starts-with-better-evaluation/"
+    "date": "2025-12-04",
+    "summary": "Using Apache Iceberg on AWS with Athena, Glue/Spark and DuckDB The post Bootstrap a Data Lakehouse in an Afternoon appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/bootstrap-a-data-lakehouse-in-an-afternoon/"
   },
   {
     "category": "News",
-    "title": "The Machine Learning and Deep Learning “Advent Calendar” Series: The Blueprint",
+    "title": "The Best Data Scientists are Always Learning",
     "source": "towardsdatascience.com",
-    "date": "2025-11-30",
-    "summary": "Opening the black box of ML models, step by step, directly in Excel The post The Machine Learning and Deep Learning “Advent Calendar” Series: The Blueprint appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/machine-learning-and-deep-learning-in-excel-advent-calendar-announcement/"
+    "date": "2025-12-04",
+    "summary": "Why continuous learning matters & how to come up with topics to study The post The Best Data Scientists are Always Learning appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/part-1-the-best-data-scientists-are-always-learning/"
   },
   {
     "category": "News",
-    "title": "The Greedy Boruta Algorithm: Faster Feature Selection Without Sacrificing Recall",
+    "title": "The Architecture Behind Web Search in AI Chatbots",
     "source": "towardsdatascience.com",
-    "date": "2025-11-30",
-    "summary": "A modification to the Boruta algorithm that dramatically reduces computation while maintaining high sensitivity The post The Greedy Boruta Algorithm: Faster Feature Selection Without Sacrificing Recal…",
-    "link": "https://towardsdatascience.com/the-greedy-boruta-algorithm-faster-feature-selection-without-sacrificing-recall/"
+    "date": "2025-12-04",
+    "summary": "And what this means for generative engine optimization (GEO) The post The Architecture Behind Web Search in AI Chatbots appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/the-architecture-behind-web-search-in-ai-chatbots-2/"
   },
   {
     "category": "News",
-    "title": "Metric Deception: When Your Best KPIs Hide Your Worst Failures",
+    "title": "Overcoming the Hidden Performance Traps of Variable-Shaped Tensors: Efficient Data Sampling in PyTorch",
     "source": "towardsdatascience.com",
-    "date": "2025-11-29",
-    "summary": "The most dangerous KPIs aren’t broken; they’re the ones trusted long after they’ve lost their meaning. The post Metric Deception: When Your Best KPIs Hide Your Worst Failures appeared first on Towards…",
-    "link": "https://towardsdatascience.com/metric-deception-when-your-best-kpis-hide-your-worst-failures/"
+    "date": "2025-12-03",
+    "summary": "PyTorch Model Performance Analysis and Optimization — Part 11 The post Overcoming the Hidden Performance Traps of Variable-Shaped Tensors: Efficient Data Sampling in PyTorch appeared first on Towards …",
+    "link": "https://towardsdatascience.com/overcoming-the-hidden-performance-traps-of-variable-shaped-tensors-efficient-data-sampling-in-pytorch/"
   },
   {
     "category": "News",
-    "title": "How to Scale Your LLM Usage",
+    "title": "The Machine Learning “Advent Calendar” Day 3: GNB, LDA and QDA in Excel",
     "source": "towardsdatascience.com",
-    "date": "2025-11-29",
-    "summary": "Learn how to increase LLM usage to achieve increased productivity The post How to Scale Your LLM Usage appeared first on Towards Data Science.…",
-    "link": "https://towardsdatascience.com/how-to-scale-your-llm-usage/"
+    "date": "2025-12-03",
+    "summary": "From local distance to global probability The post The Machine Learning “Advent Calendar” Day 3: GNB, LDA and QDA in Excel appeared first on Towards Data Science.…",
+    "link": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-3-gnb-lda-and-qda-in-excel/"
   },
   {
     "category": "News",
@@ -81,6 +81,14 @@
   },
   {
     "category": "News",
+    "title": "Deprecating Power BI Q&amp;A",
+    "source": "powerbi.microsoft.com",
+    "date": "2025-12-01",
+    "summary": "We are announcing the deprecation of Q&A, our legacy natural language tool, which will take place in December 2026. Moving forward, users can instead utilize Power BI Copilot, which provides a more ad…",
+    "link": "https://powerbi.microsoft.com/en-us/blog/deprecating-power-bi-qa/"
+  },
+  {
+    "category": "News",
     "title": "Image Visual Enhancements for Report Creators",
     "source": "powerbi.microsoft.com",
     "date": "2025-11-24",
@@ -110,13 +118,5 @@
     "date": "2025-11-19",
     "summary": "We’re excited to announce the release of the Standalone Copilot experience in Power BI Mobile apps! Copilot in Power BI on mobile is a new way to get insights from your Power BI data. You no longer ha…",
     "link": "https://powerbi.microsoft.com/en-us/blog/standalone-copilot-in-power-bi-mobile-apps-chat-with-your-data-anytime-anywhere-preview/"
-  },
-  {
-    "category": "News",
-    "title": "Bringing Context Aware Intelligence to Power BI",
-    "source": "powerbi.microsoft.com",
-    "date": "2025-11-18",
-    "summary": "Ten years ago, Power BI entered the market and transformed how businesses interact with data. Before self-service BI, business users waited days, sometimes weeks, for IT teams to build reports and ans…",
-    "link": "https://powerbi.microsoft.com/en-us/blog/bringing-context-aware-intelligence-to-power-bi/"
   }
 ]
